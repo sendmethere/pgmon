@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, X } from 'lucide-react';
+import { Target } from 'lucide-react';
 import { useEvaluationStore } from '../store/evaluationStore';
 
 const SubjectSelector = () => {

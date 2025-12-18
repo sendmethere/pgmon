@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Plus, Trash2, Edit2, Download, Save, X, ChevronRight, Copy } from 'lucide-react';
+import { Trash2, Edit2, Download, X, ChevronRight, Copy } from 'lucide-react';
 
 // 데이터 import
 import initialBehaviorSentences from '../data/behavior_sentence.json';
