@@ -1,9 +1,9 @@
 import React from 'react';
-import { Sparkles } from 'lucide-react';
+import { Sparkles, RotateCcw } from 'lucide-react';
 import { useEvaluationStore } from '../store/evaluationStore';
 
 const EvaluationTable = () => {
-  const { students, selectedSubjects, updateStudentScore, updateStudentName, generateEvaluations, isLoading } = useEvaluationStore();
+  const { students, selectedSubjects, updateStudentScore, updateStudentName, generateEvaluations, isLoading, clearScores } = useEvaluationStore();
   
   const handleScoreChange = (studentId, subjectId, value, currentInput) => {
     const score = parseInt(value) || 0;
@@ -32,13 +32,23 @@ const EvaluationTable = () => {
   
   return (
     <div>
-      <div className="flex items-center space-x-3 mb-4">
-        <div className="flex items-center justify-center w-8 h-8 bg-pgm-primary text-white rounded-full text-sm font-semibold">
-          3
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center space-x-3">
+          <div className="flex items-center justify-center w-8 h-8 bg-pgm-primary text-white rounded-full text-sm font-semibold">
+            3
+          </div>
+          <div>
+            <h2 className="text-xl font-semibold text-gray-900">평가하기</h2>
+          </div>
         </div>
-        <div>
-          <h2 className="text-xl font-semibold text-gray-900">평가하기</h2>
-        </div>
+        <button
+          onClick={clearScores}
+          className="flex items-center gap-1 px-2 py-1 text-xs text-gray-500 hover:text-red-500 hover:bg-red-50 rounded transition-colors cursor-pointer"
+          title="점수 초기화"
+        >
+          <RotateCcw className="w-3 h-3" />
+          초기화
+        </button>
       </div>
       
       {/* 등급 입력 안내 */}

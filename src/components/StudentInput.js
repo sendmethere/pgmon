@@ -1,17 +1,19 @@
 import React, { useState, useRef } from 'react';
-import { Users, Plus, Upload, HelpCircle } from 'lucide-react';
+import { Users, Plus, Upload, HelpCircle, RotateCcw } from 'lucide-react';
 import { useEvaluationStore } from '../store/evaluationStore';
 import * as XLSX from 'xlsx';
 
 const StudentInput = () => {
-  const { students, addMultipleStudents, removeStudent, importStudentsFromExcel } = useEvaluationStore();
+  const { students, addMultipleStudents, removeStudent, importStudentsFromExcel, clearStudents } = useEvaluationStore();
   const [studentCount, setStudentCount] = useState(10);
   const [showGuide, setShowGuide] = useState(false);
   const fileInputRef = useRef(null);
   
   const handleGenerateStudents = () => {
-    if (studentCount > 0 && studentCount <= 50) {
-      addMultipleStudents(studentCount);
+    if (studentCount >= 0 && studentCount <= 50) {
+      if (studentCount > 0) {
+        addMultipleStudents(studentCount);
+      }
       setStudentCount(10);
     }
   };
@@ -84,14 +86,24 @@ const StudentInput = () => {
   
   return (
     <div className="h-fit">
-      <div className="flex items-center space-x-3 mb-4">
-        <div className="flex items-center justify-center w-8 h-8 bg-pgm-primary text-white rounded-full text-sm font-semibold">
-          1
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center space-x-3">
+          <div className="flex items-center justify-center w-8 h-8 bg-pgm-primary text-white rounded-full text-sm font-semibold">
+            1
+          </div>
+          <div>
+            <h2 className="text-lg font-semibold text-gray-900">학생 정보 입력</h2>
+            <p className="text-xs text-gray-600">최대 50명까지 입력 가능</p>
+          </div>
         </div>
-        <div>
-          <h2 className="text-lg font-semibold text-gray-900">학생 정보 입력</h2>
-          <p className="text-xs text-gray-600">최대 50명까지 입력 가능</p>
-        </div>
+        <button
+          onClick={clearStudents}
+          className="flex items-center gap-1 px-2 py-1 text-xs text-gray-500 hover:text-red-500 hover:bg-red-50 rounded transition-colors cursor-pointer"
+          title="학생 초기화"
+        >
+          <RotateCcw className="w-3 h-3" />
+          초기화
+        </button>
       </div>
       
       <div className="space-y-4">
@@ -101,9 +113,16 @@ const StudentInput = () => {
             <input
               type="number"
               value={studentCount}
-              onChange={(e) => setStudentCount(Math.max(1, Math.min(50, parseInt(e.target.value) || 10)))}
+              onChange={(e) => {
+                const val = e.target.value;
+                if (val === '' || val === '0') {
+                  setStudentCount(val === '' ? '' : 0);
+                } else {
+                  setStudentCount(Math.max(0, Math.min(50, parseInt(val) || 0)));
+                }
+              }}
               className="w-20 px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-pgm-primary focus:border-transparent"
-              min="1"
+              min="0"
               max="50"
             />
             <span className="text-gray-700">명</span>
@@ -163,12 +182,6 @@ const StudentInput = () => {
                 <Users className="h-4 w-4 text-gray-600" />
                 <span className="text-sm font-medium text-gray-900">생성된 학생 수: {students.length}명</span>
               </div>
-              <button
-                onClick={() => students.forEach(student => removeStudent(student.id))}
-                className="text-xs text-red-500 hover:text-red-700 transition-colors"
-              >
-                모두 삭제
-              </button>
             </div>
           </div>
         )}

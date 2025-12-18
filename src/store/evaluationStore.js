@@ -150,6 +150,25 @@ export const useEvaluationStore = create(
         });
       },
       
+      clearStudents: () => {
+        set({ students: [], evaluationResults: [] });
+      },
+      
+      clearSelectedSubjects: () => {
+        set((state) => ({
+          selectedSubjects: [],
+          students: state.students.map(student => ({ ...student, scores: {} })),
+          evaluationResults: []
+        }));
+      },
+      
+      clearScores: () => {
+        set((state) => ({
+          students: state.students.map(student => ({ ...student, scores: {} })),
+          evaluationResults: []
+        }));
+      },
+      
       importStudentsFromExcel: (studentsData) => {
         set((state) => {
           const newStudents = studentsData.map((data, index) => ({

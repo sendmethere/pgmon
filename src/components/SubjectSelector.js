@@ -1,9 +1,9 @@
 import React from 'react';
-import { Target } from 'lucide-react';
+import { Target, RotateCcw } from 'lucide-react';
 import { useEvaluationStore } from '../store/evaluationStore';
 
 const SubjectSelector = () => {
-  const { categories, selectedSubjects, selectSubject, removeSubject } = useEvaluationStore();
+  const { categories, selectedSubjects, selectSubject, removeSubject, clearSelectedSubjects } = useEvaluationStore();
   
   const handleSubjectToggle = (subject) => {
     const isSelected = selectedSubjects.some(s => s.id === subject.id);
@@ -16,14 +16,24 @@ const SubjectSelector = () => {
   
   return (
     <div className="h-fit">
-      <div className="flex items-center space-x-3 mb-4">
-        <div className="flex items-center justify-center w-8 h-8 bg-pgm-primary text-white rounded-full text-sm font-semibold">
-          2
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center space-x-3">
+          <div className="flex items-center justify-center w-8 h-8 bg-pgm-primary text-white rounded-full text-sm font-semibold">
+            2
+          </div>
+          <div>
+            <h2 className="text-lg font-semibold text-gray-900">평가 영역 선택</h2>
+            <p className="text-xs text-gray-600">최대 15개까지 선택 가능</p>
+          </div>
         </div>
-        <div>
-          <h2 className="text-lg font-semibold text-gray-900">평가 영역 선택</h2>
-          <p className="text-xs text-gray-600">최대 15개까지 선택 가능</p>
-        </div>
+        <button
+          onClick={clearSelectedSubjects}
+          className="flex items-center gap-1 px-2 py-1 text-xs text-gray-500 hover:text-red-500 hover:bg-red-50 rounded transition-colors cursor-pointer"
+          title="선택 초기화"
+        >
+          <RotateCcw className="w-3 h-3" />
+          초기화
+        </button>
       </div>
       
       <div className="space-y-4">

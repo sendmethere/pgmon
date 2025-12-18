@@ -2,6 +2,7 @@ import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { ChevronRight, Plus, Trash2, Wand2, Upload, HelpCircle, Copy, Users, List, Download } from 'lucide-react';
 import * as XLSX from 'xlsx';
 import Header from './Header';
+import Footer from './Footer';
 
 // 데이터 import
 import activityTypes from '../data/activityType.json';
@@ -349,14 +350,14 @@ const ActivityEvaluation = () => {
   const itemClass = (selected) => `px-3 py-2 cursor-pointer flex items-center justify-between text-sm ${selected ? 'bg-blue-500 text-white' : 'hover:bg-gray-100'}`;
 
   return (
-    <div className="min-h-screen bg-pgm-base font-sans">
+    <div className="min-h-screen bg-pgm-base font-sans flex flex-col">
       <Header />
-      <div className="p-4">
-        <div className="max-w-full mx-auto">
+      <div className="p-4 flex-1">
+        <div className="max-w-7xl mx-auto">
           {/* 헤더 */}
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 mb-4 flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <h1 className="text-lg font-bold text-gray-900">🎯 창체(자동진) 평가하기</h1>
+              <h1 className="text-lg font-bold text-gray-900">🎯 창체(자율, 동아리, 진로) 평가하기 (누가 & 발달)</h1>
             </div>
             
             <div className="flex items-center gap-3">
@@ -805,6 +806,7 @@ const ActivityEvaluation = () => {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

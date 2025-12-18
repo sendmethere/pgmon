@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-100">
-      <div className="container mx-auto px-4 py-2 max-w-6xl">
+      <div className="container mx-auto px-4 py-2 max-w-7xl">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img 
@@ -21,10 +21,6 @@ const Header = () => {
               className="w-32 object-contain cursor-pointer"
               onClick={() => navigate('/app')}
             />
-            <div className="flex items-end space-x-2">
-              <h1 className="text-2xl font-bold text-gray-900">평가몬</h1>
-              <p className="text-xs text-gray-600">초등학교 선생님을 위한 스마트한 평가 플랫폼</p>
-            </div>
           </div>
           
           <nav className="flex space-x-1">
@@ -37,7 +33,7 @@ const Header = () => {
               }`}
             >
               <Edit3 className="h-4 w-4" />
-              <span>행발 문장 만들기</span>
+              <span>행발</span>
             </button>
             <button
               onClick={() => navigate('/activity')}
@@ -48,7 +44,7 @@ const Header = () => {
               }`}
             >
               <Target className="h-4 w-4" />
-              <span>창체 평가하기</span>
+              <span>창체</span>
             </button>
             <button
               onClick={() => navigate('/library')}

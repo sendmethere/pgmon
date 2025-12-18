@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import StudentInput from './components/StudentInput';
 import SubjectSelector from './components/SubjectSelector';
 import EvaluationTable from './components/EvaluationTable';
@@ -29,10 +30,10 @@ function MainApp() {
   const { evaluationResults } = useEvaluationStore();
 
   return (
-    <div className="min-h-screen bg-pgm-base font-sans">
+    <div className="min-h-screen bg-pgm-base font-sans flex flex-col">
       <Header />
       
-      <main className="container mx-auto px-4 py-4 max-w-6xl">
+      <main className="container mx-auto px-4 py-4 max-w-7xl flex-1">
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
           {/* 학생 정보 입력과 평가 영역 선택을 한 행으로 배치 */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-6">
@@ -59,6 +60,8 @@ function MainApp() {
           )}
         </div>
       </main>
+      
+      <Footer />
     </div>
   );
 }

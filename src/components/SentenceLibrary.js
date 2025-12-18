@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { ChevronRight, Copy, Search } from 'lucide-react';
 import Header from './Header';
+import Footer from './Footer';
 
 // 데이터 import
 import behaviorSentences from '../data/behavior_sentence.json';
@@ -176,10 +177,10 @@ const SentenceLibrary = () => {
                         selectedActivity;
 
   return (
-    <div className="min-h-screen bg-pgm-base font-sans">
+    <div className="min-h-screen bg-pgm-base font-sans flex flex-col">
       <Header />
-      <div className="p-4">
-        <div className="max-w-full mx-auto">
+      <div className="p-4 flex-1">
+        <div className="max-w-7xl mx-auto">
           {/* 필터 헤더 */}
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 mb-4 flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -524,6 +525,7 @@ const SentenceLibrary = () => {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
