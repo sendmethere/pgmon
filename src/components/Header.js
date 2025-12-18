@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { FileText, Edit3 } from 'lucide-react';
+import { FileText, Edit3, Target } from 'lucide-react';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -8,6 +8,7 @@ const Header = () => {
   
   const isEvaluation = location.pathname === '/app';
   const isLibrary = location.pathname === '/library';
+  const isActivity = location.pathname === '/activity';
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-100">
@@ -37,6 +38,17 @@ const Header = () => {
             >
               <Edit3 className="h-4 w-4" />
               <span>행발 문장 만들기</span>
+            </button>
+            <button
+              onClick={() => navigate('/activity')}
+              className={`cursor-pointer flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                isActivity
+                  ? 'bg-pgm-primary text-white'
+                  : 'text-gray-600 hover:text-pgm-primary hover:bg-gray-50 border'
+              }`}
+            >
+              <Target className="h-4 w-4" />
+              <span>창체 평가하기</span>
             </button>
             <button
               onClick={() => navigate('/library')}

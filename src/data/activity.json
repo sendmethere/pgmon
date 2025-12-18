@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "name": "학급임원선거",
+    "activity_type_id": 1
+  },
+  {
+    "id": 2,
+    "name": "학급회의",
+    "activity_type_id": 1
+  },
+  {
+    "id": 3,
+    "name": "1인1역",
+    "activity_type_id": 1
+  },
+  {
+    "id": 5,
+    "name": "안전교육",
+    "activity_type_id": 1
+  },
+  {
+    "id": 7,
+    "name": "독서부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 15,
+    "name": "새학년새학기",
+    "activity_type_id": 1
+  },
+  {
+    "id": 16,
+    "name": "저작권 교육",
+    "activity_type_id": 1
+  },
+  {
+    "id": 17,
+    "name": "친구사랑주간",
+    "activity_type_id": 1
+  },
+  {
+    "id": 18,
+    "name": "학교폭력예방교육",
+    "activity_type_id": 1
+  },
+  {
+    "id": 19,
+    "name": "약물오남용예방교육",
+    "activity_type_id": 1
+  },
+  {
+    "id": 20,
+    "name": "세계시민교육\u001c",
+    "activity_type_id": 1
+  },
+  {
+    "id": 21,
+    "name": "도박예방교육",
+    "activity_type_id": 1
+  },
+  {
+    "id": 22,
+    "name": "미디어리터러시",
+    "activity_type_id": 1
+  },
+  {
+    "id": 23,
+    "name": "독도의날 교육",
+    "activity_type_id": 1
+  },
+  {
+    "id": 24,
+    "name": "다큐멘터리부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 25,
+    "name": "보드게임부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 26,
+    "name": "창의미술부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 27,
+    "name": "종이접기부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 28,
+    "name": "리코더부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 29,
+    "name": "영화감상부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 30,
+    "name": "칼림바부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 31,
+    "name": "영어팝송부",
+    "activity_type_id": 2
+  },
+  {
+    "id": 32,
+    "name": "AI-SW",
+    "activity_type_id": 2
+  },
+  {
+    "id": 33,
+    "name": "자기 이해",
+    "activity_type_id": 3
+  },
+  {
+    "id": 34,
+    "name": "직업 탐색",
+    "activity_type_id": 3
+  },
+  {
+    "id": 35,
+    "name": "진로 연결",
+    "activity_type_id": 3
+  },
+  {
+    "id": 36,
+    "name": "미래 설계",
+    "activity_type_id": 3
+  },
+  {
+    "id": 37,
+    "name": "진로 표현",
+    "activity_type_id": 3
+  },
+  {
+    "id": 38,
+    "name": "진로 검사",
+    "activity_type_id": 3
+  }
+]

@@ -6,6 +6,7 @@ import SubjectSelector from './components/SubjectSelector';
 import EvaluationTable from './components/EvaluationTable';
 import ResultsDisplay from './components/ResultsDisplay';
 import SentenceLibrary from './components/SentenceLibrary';
+import ActivityEvaluation from './components/ActivityEvaluation';
 import PasswordGate from './components/PasswordGate';
 import AdminPanel from './components/AdminPanel';
 import { useEvaluationStore } from './store/evaluationStore';
@@ -86,6 +87,15 @@ function App() {
           element={
             <ProtectedRoute>
               <SentenceLibrary />
+            </ProtectedRoute>
+          } 
+        />
+        {/* 창체 평가하기 페이지 */}
+        <Route 
+          path="/activity" 
+          element={
+            <ProtectedRoute>
+              <ActivityEvaluation />
             </ProtectedRoute>
           } 
         />

@@ -71,7 +71,7 @@ const ResultsDisplay = () => {
             <textarea
               value={result.sentence}
               onChange={(e) => updateResultSentence(result.studentId, e.target.value)}
-              className="flex-1 px-2 text-sm text-gray-800 leading-relaxed bg-transparent border resize-none focus:outline-none focus:bg-white focus:border focus:border-gray-300 focus:rounded px-1 -mx-1 "
+              className="flex-1 px-2 h-36 text-sm text-gray-800 leading-relaxed bg-transparent border resize-none focus:outline-none focus:bg-white focus:border focus:border-gray-300 focus:rounded px-1 -mx-1 "
               rows={2}
             />
             

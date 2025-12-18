@@ -9,10 +9,13 @@ import categoryData from '../data/category.json';
 import subjectDetailData from '../data/subject_detail.json';
 import subjectData from '../data/subject.json';
 import chaptersData from '../data/chapters.json';
+import activityTypes from '../data/activityType.json';
+import activities from '../data/activity.json';
+import activitySentences from '../data/activity_sentence.json';
 
 const SentenceLibrary = () => {
   // 최상위 타입
-  const [activeType, setActiveType] = useState('behavior'); // 'behavior' | 'subject'
+  const [activeType, setActiveType] = useState('behavior'); // 'behavior' | 'subject' | 'activity'
   
   // 행발 선택 상태
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -24,6 +27,10 @@ const SentenceLibrary = () => {
   const [selectedGradeLevel, setSelectedGradeLevel] = useState(null);
   const [selectedTextbook, setSelectedTextbook] = useState(null);
   const [selectedChapter, setSelectedChapter] = useState(null);
+  
+  // 창체 선택 상태
+  const [selectedActivityType, setSelectedActivityType] = useState(null);
+  const [selectedActivity, setSelectedActivity] = useState(null);
   
   // 검색
   const [searchQuery, setSearchQuery] = useState('');
@@ -116,6 +123,25 @@ const SentenceLibrary = () => {
     return sentences;
   }, [selectedChapter, searchQuery]);
 
+  // 창체: 활동 목록
+  const filteredActivities = useMemo(() => {
+    if (!selectedActivityType) return [];
+    return activities.filter(a => a.activity_type_id === selectedActivityType.id);
+  }, [selectedActivityType]);
+
+  // 창체: 선택된 활동의 문장들
+  const currentActivitySentences = useMemo(() => {
+    if (!selectedActivity) return [];
+    let sentences = activitySentences.filter(s => s.activity_id === selectedActivity.id);
+    // 검색 필터 적용
+    if (searchQuery) {
+      sentences = sentences.filter(s => 
+        s.text.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
+    return sentences;
+  }, [selectedActivity, searchQuery]);
+
   // 타입 변경
   const handleTypeChange = (type) => {
     setActiveType(type);
@@ -126,6 +152,8 @@ const SentenceLibrary = () => {
     setSelectedGradeLevel(null);
     setSelectedTextbook(null);
     setSelectedChapter(null);
+    setSelectedActivityType(null);
+    setSelectedActivity(null);
     setSearchQuery('');
   };
 
@@ -143,7 +171,9 @@ const SentenceLibrary = () => {
   const itemClass = (selected) => `px-3 py-2 cursor-pointer flex items-center justify-between text-sm ${selected ? 'bg-blue-500 text-white' : 'hover:bg-gray-100'}`;
 
   // 현재 보여줄 문장 목록
-  const showSentences = activeType === 'behavior' ? selectedGrade : selectedChapter;
+  const showSentences = activeType === 'behavior' ? selectedGrade : 
+                        activeType === 'subject' ? selectedChapter : 
+                        selectedActivity;
 
   return (
     <div className="min-h-screen bg-pgm-base font-sans">
@@ -166,6 +196,12 @@ const SentenceLibrary = () => {
                 className={`px-3 py-1.5 text-sm rounded cursor-pointer ${activeType === 'subject' ? 'bg-emerald-500 text-white' : 'bg-gray-100 hover:bg-gray-200'}`}
               >
                 📚 교과
+              </button>
+              <button
+                onClick={() => handleTypeChange('activity')}
+                className={`px-3 py-1.5 text-sm rounded cursor-pointer ${activeType === 'activity' ? 'bg-violet-500 text-white' : 'bg-gray-100 hover:bg-gray-200'}`}
+              >
+                🎯 창체
               </button>
             </div>
           </div>
@@ -294,7 +330,7 @@ const SentenceLibrary = () => {
                   </div>
                 )}
               </>
-            ) : (
+            ) : activeType === 'subject' ? (
               <>
                 {/* 과목 컬럼 */}
                 <div className={columnClass}>
@@ -379,6 +415,80 @@ const SentenceLibrary = () => {
                         </div>
                       ) : (
                         currentSubjectSentences.map(s => (
+                          <div key={s.id} className="p-2 hover:bg-gray-50 group">
+                            <div className="flex items-center gap-2">
+                              <span 
+                                className="flex-1 text-sm cursor-pointer hover:text-blue-600"
+                                onClick={() => handleCopy(s.text)}
+                              >
+                                {s.text}
+                              </span>
+                              <button
+                                onClick={() => handleCopy(s.text)}
+                                className="opacity-0 group-hover:opacity-100 text-gray-400 hover:text-green-500 cursor-pointer"
+                                title="복사"
+                              >
+                                <Copy className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                          </div>
+                        ))
+                      )}
+                    </div>
+                  </div>
+                )}
+              </>
+            ) : (
+              <>
+                {/* 창체: 활동 유형 컬럼 */}
+                <div className={columnClass}>
+                  <div className="px-3 py-2 bg-gray-50 border-b text-xs font-medium text-gray-500 sticky top-0">활동 유형</div>
+                  {activityTypes.map(type => (
+                    <div
+                      key={type.id}
+                      onClick={() => { setSelectedActivityType(type); setSelectedActivity(null); setSearchQuery(''); }}
+                      className={itemClass(selectedActivityType?.id === type.id)}
+                    >
+                      <span>{type.name}</span>
+                      <ChevronRight className="w-4 h-4 opacity-50" />
+                    </div>
+                  ))}
+                </div>
+
+                {/* 창체: 활동 컬럼 */}
+                {selectedActivityType && (
+                  <div className={columnClass}>
+                    <div className="px-3 py-2 bg-gray-50 border-b text-xs font-medium text-gray-500 sticky top-0">활동</div>
+                    {filteredActivities.map(a => {
+                      const sentenceCount = activitySentences.filter(s => s.activity_id === a.id).length;
+                      return (
+                        <div
+                          key={a.id}
+                          onClick={() => { setSelectedActivity(a); setSearchQuery(''); }}
+                          className={itemClass(selectedActivity?.id === a.id)}
+                        >
+                          <span>{a.name}</span>
+                          <span className="text-xs opacity-70">{sentenceCount}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+
+                {/* 창체: 문장 컬럼 */}
+                {selectedActivity && (
+                  <div className="flex-1 min-w-80 h-full overflow-y-auto">
+                    <div className="px-3 py-2 bg-gray-50 border-b text-xs font-medium text-gray-500 sticky top-0">
+                      문장 ({currentActivitySentences.length})
+                    </div>
+                    
+                    <div className="divide-y divide-gray-100">
+                      {currentActivitySentences.length === 0 ? (
+                        <div className="p-8 text-center text-gray-400 text-sm">
+                          {searchQuery ? '검색 결과가 없습니다' : '문장이 없습니다'}
+                        </div>
+                      ) : (
+                        currentActivitySentences.map(s => (
                           <div key={s.id} className="p-2 hover:bg-gray-50 group">
                             <div className="flex items-center gap-2">
                               <span 
