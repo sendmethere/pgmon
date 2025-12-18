@@ -1,2324 +1,3374 @@
 [
-    {
-      "id": 2,
-      "sentence_grade": 1,
-      "sentence_text": "학급에서의 생활태도가 매우 우수하며, 규칙의 중요성과 필요성을 알고 이에 따라 학급 내에서 규칙을 잘 지킴.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 3,
-      "sentence_grade": 1,
-      "sentence_text": "학급에서의 생활태도가 매우 우수하며, 맡겨진 역할을 충실히 수행할 뿐 아니라 남을 잘 도움.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 4,
-      "sentence_grade": 1,
-      "sentence_text": "학급에서의 생활태도가 매우 우수하며, 본인과 학우들의 학교 생활이 원활하게 이루어지도록 돕는 역할을 잘 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 5,
-      "sentence_grade": 1,
-      "sentence_text": "학급에서의 생활태도가 매우 우수하며, 규칙을 잘 지킴과 동시에 친구들에게 좋은 영향력을 끼침.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 6,
-      "sentence_grade": 1,
-      "sentence_text": "학급에서의 생활태도가 매우 우수하며, 맡겨진 역할을 잘 수행함과 동시에 친구들에게 좋은 영향력을 끼침.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 7,
-      "sentence_grade": 2,
-      "sentence_text": "학교 생활에서의 즐거운 마음과 적극성을 보이며, 학급 내 역할 수행에 성실히 임함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 8,
-      "sentence_grade": 2,
-      "sentence_text": "학교 생활에서의 즐거운 마음과 적극성을 보이며, 학급에서 주인의식을 가지고 성실히 생활함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 9,
-      "sentence_grade": 2,
-      "sentence_text": "학교 생활에서의 즐거운 마음과 적극성을 보이며, 학급 규칙을 인지하여 잘 준수함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 10,
-      "sentence_grade": 3,
-      "sentence_text": "학급 내 역할 수행에 성실히 임하고 있으며, 안전하고 편안한 학급 분위기 조성에 기여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 11,
-      "sentence_grade": 3,
-      "sentence_text": "학급에서 주인의식을 가지고 성실히 생활하며, 안전하고 편안한 학급 분위기 조성에 기여 함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 12,
-      "sentence_grade": 3,
-      "sentence_text": "학급 규칙을 인지하여 잘 준수하며, 안전하고 편안한 학급 분위기 조성에 기여 함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 13,
-      "sentence_grade": 4,
-      "sentence_text": "학급 생활 태도가 소극적이나, 학급 내에서 규칙 준수 의식과 역할 수행을 잘 하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 14,
-      "sentence_grade": 4,
-      "sentence_text": "학급 생활 태도가 소극적이나, 학급에서 주인의식을 어느 정도 갖추고 있는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 15,
-      "sentence_grade": 5,
-      "sentence_text": "학기 초에 비해 원만한 생활태도를 보이나, 학급 내에서 규칙 준수 의식과 역할 수행의 책임성을 갖출 것을 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 16,
-      "sentence_grade": 5,
-      "sentence_text": "학기 초에 비해 원만한 생활태도를 보이나, 학급에서의 주인의식과 책임감을 갖출 것을 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 1,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 17,
-      "sentence_grade": 1,
-      "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 자신의 주장을 진술하는 데에 당당한 태도를 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 18,
-      "sentence_grade": 1,
-      "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 상대에게 의견을 어느 정도 양보할 줄 아는 태도를 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 19,
-      "sentence_grade": 1,
-      "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 자신의 의견과 감정을 잘 전달하는 능력을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 20,
-      "sentence_grade": 1,
-      "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 발표하는 내용이 논리적이며 연결성 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 21,
-      "sentence_grade": 1,
-      "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 친구들과 협력적인 의사소통의 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 22,
-      "sentence_grade": 2,
-      "sentence_text": "자기 표현에서의 적극성을 보이며, 관심사를 중심으로 학급 친구들과 즐겁게 이야기하는 모습을 자주 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 23,
-      "sentence_grade": 2,
-      "sentence_text": "자기 표현에서의 적극성을 보이며, 올바른 언어 태도로 자신의 의견을 전달하는 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 24,
-      "sentence_grade": 2,
-      "sentence_text": "자기 표현에서의 적극성을 보이며, 친구들의 기분을 고려하여 말하는 방법을 잘 알고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 25,
-      "sentence_grade": 3,
-      "sentence_text": "학급 내에서 소통이 원활한 편이며, 관심사를 중심으로 학급 친구들과 즐겁게 이야기하는 모습을 자주 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 26,
-      "sentence_grade": 3,
-      "sentence_text": "학급 내에서 소통이 원활한 편이며, 올바른 언어 태도로 자신의 의견을 전달하는 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 27,
-      "sentence_grade": 3,
-      "sentence_text": "학급 내에서 소통이 원활한 편이며, 친구들과 묻고 답하는 대화 기술을 잘 갖추고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 28,
-      "sentence_grade": 4,
-      "sentence_text": "학급 내에서 자기 표현이 소극적인 편이나, 올바른 언어 태도로 자신의 의견을 전달하는 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 29,
-      "sentence_grade": 4,
-      "sentence_text": "학급 내에서 자기 표현이 소극적인 편이나, 친구들과 묻고 답하는 대화 기술을 잘 갖추고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 30,
-      "sentence_grade": 5,
-      "sentence_text": "친구들과 의사소통 과정에서 장난을 많이 치는 편이며, 상대방의 기분을 고려한 말하기 자세를 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 31,
-      "sentence_grade": 5,
-      "sentence_text": "자기의 의사를 표현하는 데에 의사 전달에는 문제는 없는 편이나, 적절한 대화 기술을 필요로 함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 2,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 32,
-      "sentence_grade": 1,
-      "sentence_text": "대인 관계가 매우 좋으며, 고운 말과 긍정적인 생각으로 친구들 사이에 인기가 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 33,
-      "sentence_grade": 1,
-      "sentence_text": "대인 관계가 매우 좋으며, 늘 밝고 명랑한 생활을 하며 급우 간에 인기가 높고 자기 의사 표시를 분명히 함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 34,
-      "sentence_grade": 1,
-      "sentence_text": "대인 관계가 매우 좋으며, 사교성이 있어 대부분의 친구들과 잘 어울리며, 도움이 필요한 친구에게 먼저 다가가는 따뜻한 마음씨를 가짐.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 35,
-      "sentence_grade": 1,
-      "sentence_text": "대인 관계가 매우 좋으며, 활달하여 친구들 간의 어울림이 좋고 자기 의견도 잘 펼치며 역동적임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 36,
-      "sentence_grade": 1,
-      "sentence_text": "대인 관계가 매우 좋으며, 친구들간의 갈등을 조정하는 데에도 우수한 관계 능력을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 37,
-      "sentence_grade": 2,
-      "sentence_text": "대인 관계에서 적극적인 태도를 보이며, 매사에 자신감이 있어 많은 친구와 사귀고 공동의 일에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 38,
-      "sentence_grade": 2,
-      "sentence_text": "대인 관계에서 적극적인 태도를 보이며, 친구를 배려하는 마음을 가지려고 노력함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 39,
-      "sentence_grade": 2,
-      "sentence_text": "대인 관계에서 적극적인 태도를 보이며, 다른 사람의 상황이나 감정을 이해할 수 있는 따뜻한 마음을 지녔고 공감 능력이 뛰어남.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 40,
-      "sentence_grade": 3,
-      "sentence_text": "환하게 웃는 모습과 친구들을 챙기는 태도로 학급의 분위기를 밝게 만드는 학생임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 41,
-      "sentence_grade": 3,
-      "sentence_text": "활달한 성격으로 친구들 간의 어울림이 좋은 편이며, 자기 의견도 잘 펼치며 역동적임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 42,
-      "sentence_grade": 3,
-      "sentence_text": "다른 친구들의 기분을 공감해주고, 친구들간의 갈등을 조정하는 데에도 서로의 입장을 이해해보려는 태도를 지님.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 43,
-      "sentence_grade": 4,
-      "sentence_text": "대인 관계에서 소극적인 태도를 보이나, 남을 배려할 줄 알며 대화를 원만하게 이어나감.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 44,
-      "sentence_grade": 4,
-      "sentence_text": "대인 관계에서 소극적인 태도를 보이나, 다른 사람에게 잘 공감해주며, 양보하려는 태도를 지님.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 45,
-      "sentence_grade": 5,
-      "sentence_text": "대인 관계에서 적극적인 모습이 있으나, 상대의 입장에서 생각해보려는 태도를 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 46,
-      "sentence_grade": 5,
-      "sentence_text": "대인 관계에서 적극적인 모습이 있으나, 다소 독선적인 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 3,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 47,
-      "sentence_grade": 1,
-      "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 과제를 해결할 때 친구들의 의견을 잘 듣고 의견을 조율하며 협동하는 모습이 바람직함. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 48,
-      "sentence_grade": 1,
-      "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 내에서 의견 조율을 잘 하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 49,
-      "sentence_grade": 1,
-      "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 내에서 자신의 역할을 찾아 착실히 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 50,
-      "sentence_grade": 1,
-      "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 내에서 상대의 의견을 귀담아 들을 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 51,
-      "sentence_grade": 1,
-      "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 협력과 소통을 통해 모둠 과제를 성공적으로 해결함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 52,
-      "sentence_grade": 2,
-      "sentence_text": "모둠활동과 같은 협력적인 일에 적극적으로 참여하며 상대의 의견을 귀담아 들을 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 53,
-      "sentence_grade": 2,
-      "sentence_text": "모둠활동과 같은 협력적인 일에 적극적으로 참여하며 협력과 소통을 통해 모둠 과제를 성공적으로 해결함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 54,
-      "sentence_grade": 2,
-      "sentence_text": "모둠활동과 같은 협력적인 일에 적극적으로 참여하며 자신의 역할을 찾아 착실히 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 55,
-      "sentence_grade": 3,
-      "sentence_text": "모둠활동을 협력적으로 잘 수행하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 56,
-      "sentence_grade": 3,
-      "sentence_text": "모둠활동에서 다른 사람의 의견에 귀 기울여주는 태도를 지님.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 57,
-      "sentence_grade": 3,
-      "sentence_text": "모둠활동에서 협력의 중요성을 알고 자신의 역할을 잘 수행하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 58,
-      "sentence_grade": 4,
-      "sentence_text": "모둠활동에 소극적인 태도를 보이나, 주어진 역할은 잘 수행하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 59,
-      "sentence_grade": 4,
-      "sentence_text": "모둠활동에 소극적인 태도를 보이나, 다른 사람의 좋은 의견을 잘 뒷받침해줌.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 60,
-      "sentence_grade": 5,
-      "sentence_text": "학기 초에 비해 모둠 활동에서 협력적인 태도를 보이는 편이긴 하나, 가끔 독단적인 모습이나, 비협조적인 모습을 보일 때가 있어 협력적 태도를 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 61,
-      "sentence_grade": 5,
-      "sentence_text": "학기 초에 비해 모둠 활동에서 협력적인 태도를 보이는 편이긴 하나, 가끔 모둠활동에 참여하지 않는 모습을 보일 때가 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 4,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 62,
-      "sentence_grade": 1,
-      "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 성실한 학습 태도로 좋은 성적을 유지함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 63,
-      "sentence_grade": 1,
-      "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 공책 정리를 잘 하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 64,
-      "sentence_grade": 1,
-      "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 수업의 핵심 내용을 잘 파악하고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 65,
-      "sentence_grade": 1,
-      "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 수업의 내용을 잘 조직하여 정리할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 66,
-      "sentence_grade": 1,
-      "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 수업 후 내용 정리와 자기 성찰을 할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 67,
-      "sentence_grade": 2,
-      "sentence_text": "학업 성취와 자기 학습 관리에 적극적인 태도를 지니고 있으며, 수업 분위기 또한 좋게 만들어 줌.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 68,
-      "sentence_grade": 2,
-      "sentence_text": "학업 성취와 자기 학습 관리에 적극적인 태도를 지니고 있으며, 적절한 발표 능력까지 뒷받침하고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 69,
-      "sentence_grade": 2,
-      "sentence_text": "학업 성취와 자기 학습 관리에 적극적인 태도를 지니고 있으며, 과제 수행의 성실성을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 70,
-      "sentence_grade": 3,
-      "sentence_text": "학업 성취와 자기 학습 관리를 적절한 방법으로 해나가고 있으며, 수업에 성실히 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 71,
-      "sentence_grade": 3,
-      "sentence_text": "학업 성취와 자기 학습 관리를 적절한 방법으로 해나가고 있으며, 발표 태도가 좋은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 72,
-      "sentence_grade": 3,
-      "sentence_text": "학업 성취와 자기 학습 관리를 적절한 방법으로 해나가고 있으며, 수업의 핵심 내용을 잘 파악함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 73,
-      "sentence_grade": 4,
-      "sentence_text": "학업 성취와 자기 학습 관리에 소홀하나, 수업 태도가 바른 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 74,
-      "sentence_grade": 4,
-      "sentence_text": "학업 성취와 자기 학습 관리에 소홀하나, 흥미로운 과제에 집중력을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 75,
-      "sentence_grade": 5,
-      "sentence_text": "학업 성취와 자기 학습 관리에 소홀하여 복습하는 태도를 기를 것을 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 76,
-      "sentence_grade": 5,
-      "sentence_text": "학업 성취와 자기 학습 관리에 소홀하여 학습에 흥미를 기를 것을 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 5,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 77,
-      "sentence_grade": 1,
-      "sentence_text": "자기 관리 능력이 우수하여 하고 싶은 것과 해야 하는 것을 철저히 구분하여 행동할 수 있으며 자기 통제력이 양호함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 78,
-      "sentence_grade": 1,
-      "sentence_text": "자기 관리 능력이 우수하여 해야 할 일에 대한 정확한 이해를 바탕으로 자신의 미래를 위해 욕구를 지연하는 것이 가능함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 79,
-      "sentence_grade": 1,
-      "sentence_text": "자기 관리 능력이 우수하여 주위가 체계적으로 정리되도록 주변을 조화롭고 가지런하게 유지할 줄 암.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 80,
-      "sentence_grade": 1,
-      "sentence_text": "자기 관리 능력이 우수하여 용의 복장이 단정하고 주위를 깨끗하게 정돈하고 깔끔한 성격임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 81,
-      "sentence_grade": 1,
-      "sentence_text": "자기 관리 능력이 우수하여 자신의 주변을 포함한 교실 환경을 잘 정돈할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 82,
-      "sentence_grade": 2,
-      "sentence_text": "자기 관리에 적극적인 태도를 보이며, 주위를 깨끗하게 정돈하고 깔끔한 성격임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 83,
-      "sentence_grade": 2,
-      "sentence_text": "자기 관리에 적극적인 태도를 보이며, 자기 통제력이 양호한 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 84,
-      "sentence_grade": 2,
-      "sentence_text": "자기 관리에 적극적인 태도를 보이며, 하고 싶은 것과 해야 하는 것에 대해 정확히 이해하고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 85,
-      "sentence_grade": 3,
-      "sentence_text": "주위를 깨끗하게 정돈하고 책상 서랍이나 사물함을 깔끔하게 정리하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 86,
-      "sentence_grade": 3,
-      "sentence_text": "하고 싶은 것과 해야 할 일을 잘 알고 있으며, 자기 통제력이 양호한 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 87,
-      "sentence_grade": 3,
-      "sentence_text": "용의 복장을 단정히 하고, 주위를 깨끗하게 정돈하는 편임",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 88,
-      "sentence_grade": 4,
-      "sentence_text": "주변 정돈을 깔끔히 하지 못해 자기 관리에 소홀한 태도를 보이는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 89,
-      "sentence_grade": 4,
-      "sentence_text": "자신이 해야 할 일을 미루는 등 자기 관리에 소홀한 태도를 보이는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 90,
-      "sentence_grade": 5,
-      "sentence_text": "책성 서랍이나 사물함 등의 자기 주변 정돈을 깔끔히 하지 못해 자기 관리 역량을 기르는 것을 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 91,
-      "sentence_grade": 5,
-      "sentence_text": "하고 싶은 것과 해야 할 일을 잘 구분하지 못하므로 자기 관리 역량을 기르는 것을 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 6,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 92,
-      "sentence_grade": 1,
-      "sentence_text": "자기 이해가 뛰어나며, 높은 자존감으로 학교생활과 대인 관계에 적극적임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 93,
-      "sentence_grade": 1,
-      "sentence_text": "자신의 장점과 단점을 매우 잘 알고 있으며, 자신 그대로의 모습을 수용하고 적극적으로 드러냄. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 94,
-      "sentence_grade": 1,
-      "sentence_text": "자기가 좋아하는 것과 싫어하는 것을 매우 잘 알고 있으며, 자신을 사랑하고 아낄 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 95,
-      "sentence_grade": 1,
-      "sentence_text": "높은 자존감을 가지고 있어 어떤 상황에서라도 긍정적인 모습을 보여줌.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 96,
-      "sentence_grade": 1,
-      "sentence_text": "높은 자기 이해도와 자존감을 바탕으로 자신을 아낄 줄 알고 매사에 긍정적인 생각을 가지고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 97,
-      "sentence_grade": 2,
-      "sentence_text": "자신의 장점과 단점을 잘 알고 있으며, 자신 그대로의 모습을 수용할 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 98,
-      "sentence_grade": 2,
-      "sentence_text": "자신이 좋아하는 것과 싫어하는 것을 잘 알고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 99,
-      "sentence_grade": 2,
-      "sentence_text": "높은 자기 이해도와 자존감을 바탕으로 자신이 좋아하는 것을 알고 자신을 아낄 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 100,
-      "sentence_grade": 3,
-      "sentence_text": "자기 이해도가 높은 편이며 이를 바탕으로 자신을 객관적으로 이해하고자 함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 101,
-      "sentence_grade": 3,
-      "sentence_text": "자신이 좋아하는 것과 싫어하는 것에 대한 이해를 형성해나가는 중임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 102,
-      "sentence_grade": 3,
-      "sentence_text": "자신을 존중하는 법을 알고 이를 바람직한 언행으로 실천함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 103,
-      "sentence_grade": 4,
-      "sentence_text": "자기를 존중하는 법을 배워나가는 중이며 스스로 자존감을 북돋을 필요가 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 104,
-      "sentence_grade": 4,
-      "sentence_text": "자신이 좋아하는 것과 잘하는 것 등에 대한 이해를 형성해나가는 중임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 105,
-      "sentence_grade": 5,
-      "sentence_text": "자존감이 낮은 편이며 스스로 자존감을 북돋을 필요가 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 106,
-      "sentence_grade": 5,
-      "sentence_text": "자기 이해가 낮은 편이며 자신이 좋아하는 것과 잘하는 것 등에 대한 탐구가 필요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 7,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 107,
-      "sentence_grade": 1,
-      "sentence_text": "높은 수준의 안전의식을 가지고 있으며 위험한 장난을 치지 않고, 위험상황으로부터 스스로 지킬 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 108,
-      "sentence_grade": 1,
-      "sentence_text": "안전교육 참여도가 매우 높으며 올바른 지식과 행동으로 위험상황에 대처할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 109,
-      "sentence_grade": 1,
-      "sentence_text": "안전의 중요성과 실천 방법을 잘 습득하였고, 위험상황과 그 대처 방법을 잘 설명할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 110,
-      "sentence_grade": 1,
-      "sentence_text": "높은 수준의 안전의식을 바탕으로 자신뿐만 아니라 다른 사람의 안전까지 지키고자 노력함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 111,
-      "sentence_grade": 1,
-      "sentence_text": "안전의 중요성과 실천 방법에 대한 이해도가 매우 높은 편이며 위험한 장난을 치지 않고, 생활 속에서 안전 수칙을 잘 준수함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 112,
-      "sentence_grade": 2,
-      "sentence_text": "안전교육 참여도가 높으며, 위험 상황에 대처하는 방법을 잘 설명함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 113,
-      "sentence_grade": 2,
-      "sentence_text": "안전의식을 잘 형성하였고, 위험 상황에서 자신뿐만 아니라 다른 사람의 안전까지 지키고자 노력함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 114,
-      "sentence_grade": 2,
-      "sentence_text": "안전의 중요성과 실천 방법에 대한 이해도가 높은 편이며 위험한 장난을 치지 않고, 생활 속에서 안전 수칙을 준수함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 115,
-      "sentence_grade": 3,
-      "sentence_text": "안전 수업에 잘 참여하였고, 안전 수칙에 대한 이해를 바탕으로 생활 속에서 실천함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 116,
-      "sentence_grade": 3,
-      "sentence_text": "안전의 중요성과 생활 속에서의 실천 방법을 잘 설명할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 117,
-      "sentence_grade": 3,
-      "sentence_text": "위험한 장난을 치지 않고, 위험 상황으로부터 스스로 지킬 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 118,
-      "sentence_grade": 4,
-      "sentence_text": "가끔 위험한 장난을 치는 편이나, 위험 상황에 대한 대처 방법을 알고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 119,
-      "sentence_grade": 4,
-      "sentence_text": "가끔 안전 수칙을 위반하는 편이나, 안전의 중요성과 실천 방안에 대한 이해를 바탕으로 안전 의식을 형성해나가는 중임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 120,
-      "sentence_grade": 5,
-      "sentence_text": "위험한 장난을 자주 치며, 스스로 안전 의식을 지닐 것을 요함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 121,
-      "sentence_grade": 5,
-      "sentence_text": "안전 수칙을 자주 위반하는 편이며, 안전의 중요성을 알고 생활 속에서 실천할 필요가 있음. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 8,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 122,
-      "sentence_grade": 1,
-      "sentence_text": "창의성이 매우 뛰어나며, 다양한 발상 기법으로 창의적인 아이디어를 내놓음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 123,
-      "sentence_grade": 1,
-      "sentence_text": "창의성이 매우 뛰어나며, 우수한 창의력으로 문제해결 아이디어를 내놓음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 124,
-      "sentence_grade": 1,
-      "sentence_text": "창의성이 매우 뛰어나며, 이를 적절한 방법으로 표현하고 정교화하여 문제를 해결함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 125,
-      "sentence_grade": 2,
-      "sentence_text": "창의성을 요구하는 과제에 적극성을 보이며, 창의력 발달의 기질을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 126,
-      "sentence_grade": 2,
-      "sentence_text": "창의성을 요구하는 과제에 적극성을 보이며, 좋은 아이디어를 조직화하여 잘 전달함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 127,
-      "sentence_grade": 2,
-      "sentence_text": "창의성을 요구하는 과제에 적극성을 보이며, 과제에 몰입하는 성실성 또한 갖추고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 128,
-      "sentence_grade": 3,
-      "sentence_text": "창의성을 요구하는 과제에 흥미를 가지고 잘 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 129,
-      "sentence_grade": 3,
-      "sentence_text": "창의성을 요구하는 과제에서 자신의 창의성을 잘 피력함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 130,
-      "sentence_grade": 3,
-      "sentence_text": "창의성을 요구하는 과제에서 기발한 아이디어를 내놓음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 9,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 131,
-      "sentence_grade": 1,
-      "sentence_text": "놀이에 대한 이해가 매우 뛰어나며, 친구들과 함께 적극적으로 참여하고 즐길 줄 앎.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 132,
-      "sentence_grade": 1,
-      "sentence_text": "놀이 규칙을 매우 잘 이해하고 있으며, 놀이를 창의적으로 즐길 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 133,
-      "sentence_grade": 1,
-      "sentence_text": "놀이 활동 시간에 매우 적극적으로 참여하며 즐거운 학교생활을 누림.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 134,
-      "sentence_grade": 2,
-      "sentence_text": "놀이 활동 시간에 규칙을 잘 준수하며, 친구들과 함께 놀이를 즐김.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 135,
-      "sentence_grade": 2,
-      "sentence_text": "놀이 규칙을 잘 이해하고 있으며, 지나치게 경쟁하기보다는 실력에 상관없이 친구들과 함께 놀이를 즐기려고 함. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 136,
-      "sentence_grade": 2,
-      "sentence_text": "놀이의 특징과 규칙을 알고, 모든 놀이에 적극적으로 참여하여 즐김.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 137,
-      "sentence_grade": 3,
-      "sentence_text": "놀이 시간에 지나치게 경쟁하기보다는 적극적인 참여와 재미를 추구함. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 138,
-      "sentence_grade": 3,
-      "sentence_text": "놀이 시간 동안 기본적인 규칙을 준수할 뿐 아니라 창의적인 놀이를 추구함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 139,
-      "sentence_grade": 3,
-      "sentence_text": "놀이 규칙을 잘 이해하고 있으며, 쉬는 시간에도 친구들과 놀이를 잘 즐기는 편임. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 10,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 140,
-      "sentence_grade": 1,
-      "sentence_text": "받아쓰기 성적이 매우 우수하며, 문장 구사 또한 풍부하고 훌륭한 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 11,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 141,
-      "sentence_grade": 1,
-      "sentence_text": "받아쓰기 성적이 매우 우수하며, 생활 속에서 문장의 정확도가 높은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 11,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 142,
-      "sentence_grade": 2,
-      "sentence_text": "받아쓰기를 거의 틀리지 않으며, 문장 구사를 풍부히 할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 11,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 143,
-      "sentence_grade": 2,
-      "sentence_text": "받아쓰기를 거의 틀리지 않으며, 생활 속에서 문장을 정확히 구사함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 11,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 144,
-      "sentence_grade": 3,
-      "sentence_text": "받아쓰기 정확도가 높으며, 문장 구사도 또한 높음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 11,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 145,
-      "sentence_grade": 3,
-      "sentence_text": "받아쓰기 정확도가 높으며, 생활 속에서 문장을 구사할 때 거의 틀리지 않음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 11,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 146,
-      "sentence_grade": 1,
-      "sentence_text": "종합장을 비롯한 공책에 글씨를 반듯하고 예쁘게 쓸 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 12,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 147,
-      "sentence_grade": 1,
-      "sentence_text": "글씨 쓰기에 흥미를 보이며 글씨를 반듯하고 예쁘게 쓸 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 12,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 148,
-      "sentence_grade": 2,
-      "sentence_text": "공책에 글씨를 반듯하고 예쁘게 쓸 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 12,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 149,
-      "sentence_grade": 2,
-      "sentence_text": "예쁜 글씨 쓰기에 흥미를 보이며 교과서와 공책에 글씨를 반듯하게 씀.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 12,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 150,
-      "sentence_grade": 3,
-      "sentence_text": "글씨 쓰기에 흥미를 보이며 글씨를 쓰는 능력이 매우 발전하였음. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 12,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 151,
-      "sentence_grade": 3,
-      "sentence_text": "글씨 쓰기에 흥미를 보이며 네모 칸 안에 글씨를 반듯하고 예쁘게 쓸 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 12,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 152,
-      "sentence_grade": 1,
-      "sentence_text": "책 읽기에 높은 흥미를 보이며, 책 읽고 나누기, 책의 뒷내용 상상하기 등 창의적인 독서 생활을 실천함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 153,
-      "sentence_grade": 1,
-      "sentence_text": "책을 읽는 동안 높은 집중력을 보이며, 다양한 주제와 형식의 책을 읽고 생활화 함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 154,
-      "sentence_grade": 1,
-      "sentence_text": "평소 독서량이 많은 편이며, 창의적이고 비판적인 책읽기 활동에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 155,
-      "sentence_grade": 2,
-      "sentence_text": "책 읽기에 높은 흥미를 보이며, 독서 시간 이외에도 책 읽기를 생활화함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 156,
-      "sentence_grade": 2,
-      "sentence_text": "책을 읽는 동안 높은 집중력을 보이며, 자신이 좋아하는 주제의 책을 찾아 독서를 생활화 함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 157,
-      "sentence_grade": 2,
-      "sentence_text": "평소 독서량이 많은 편이며, 창의적이고 수용적인 책읽기 활동을 잘 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 158,
-      "sentence_grade": 3,
-      "sentence_text": "책 읽기에 높은 흥미를 보이며, 독서량이 많은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 159,
-      "sentence_grade": 3,
-      "sentence_text": "책을 읽는 동안 높은 집중력을 보이며, 책을 읽고 이야기 나누기에 적극적으로 참여함. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 160,
-      "sentence_grade": 3,
-      "sentence_text": "평소 독서량이 많은 편이며, 독서 후 활동에도 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 13,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 161,
-      "sentence_grade": 1,
-      "sentence_text": "국어 교과의 말하기, 쓰기 등의 영역에 뛰어난 재능을 보이며, 작품 읽고 생각나누기, 토의·토론 활동 등에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 162,
-      "sentence_grade": 1,
-      "sentence_text": "국어 교과의 말하기, 쓰기 등의 영역에 뛰어난 재능을 보이며, 문학적 상상력과 자기 표현력 등이 높은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 163,
-      "sentence_grade": 1,
-      "sentence_text": "국어 교과의 말하기, 쓰기 등의 영역에 뛰어난 재능을 보이며, 창의적·비판적 글쓰기 실력이 좋은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 164,
-      "sentence_grade": 2,
-      "sentence_text": "국어 교과 활동에 적극적으로 참여하며, 작품 읽고 생각나누기, 토의·토론 활동 등에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 165,
-      "sentence_grade": 2,
-      "sentence_text": "국어 교과 활동에 적극적으로 참여하며, 문학적 상상력과 자기 표현력 등이 높은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 166,
-      "sentence_grade": 2,
-      "sentence_text": "국어 교과 활동에 적극적으로 참여하며, 창의적·비판적 글쓰기 실력이 좋은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 167,
-      "sentence_grade": 3,
-      "sentence_text": "국어 교과 활동에 잘 참여하는 편이며, 작품 읽고 생각나누기, 토의·토론 활동 등에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 168,
-      "sentence_grade": 3,
-      "sentence_text": "국어 교과 활동에 잘 참여하는 편이며, 문학적 상상력과 자기 표현력 등이 높은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 169,
-      "sentence_grade": 3,
-      "sentence_text": "국어 교과 활동에 잘 참여하는 편이며, 창의적·비판적 글쓰기 실력이 좋은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 14,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 170,
-      "sentence_grade": 1,
-      "sentence_text": "수학에 뛰어난 흥미와 재능을 보이며, 문제를 푸는 방법이 정확하고, 수식 적용이 빠른 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 171,
-      "sentence_grade": 1,
-      "sentence_text": "수학에 뛰어난 흥미와 재능을 보이며, 문제 풀이 방법을 확장하여 다양한 문제를 해결함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 172,
-      "sentence_grade": 1,
-      "sentence_text": "수학에 뛰어난 흥미와 재능을 보이며, 보통 이상의 수준의 문제에 도전하여 잘 해결할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 173,
-      "sentence_grade": 2,
-      "sentence_text": "수학 교과에 큰 관심을 보이며, 문제를 푸는 방법이 정확한 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 174,
-      "sentence_grade": 2,
-      "sentence_text": "수학 교과에 큰 관심을 보이며, 복잡한 문제도 잘 정리하여 해결함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 175,
-      "sentence_grade": 2,
-      "sentence_text": "수학 교과에 큰 관심을 보이며, 어려운 문제에도 흥미를 가지고 도전함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 176,
-      "sentence_grade": 3,
-      "sentence_text": "수학 수업 시간에 발표와 문제풀이를 잘 하는 편이며, 현상에 대한 수학적인 설명을 잘 하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 177,
-      "sentence_grade": 3,
-      "sentence_text": "수학 수업 시간에 발표와 문제풀이를 잘 하는 편이며, 문제에 대한 설명 또한 잘 하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 178,
-      "sentence_grade": 3,
-      "sentence_text": "수학 수업 시간에 발표와 문제풀이를 잘 하는 편이며, 수학적 아이디어 또한 좋은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 15,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 179,
-      "sentence_grade": 1,
-      "sentence_text": "사회 교과의 지식 탐구 활동에 뛰어난 재능을 보이며, 사회 현상과 참여에 높은 관심을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 180,
-      "sentence_grade": 1,
-      "sentence_text": "사회 교과의 지식 탐구 활동에 뛰어난 재능을 보이며, 조사 학습 활동에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 181,
-      "sentence_grade": 1,
-      "sentence_text": "사회 교과의 지식 탐구 활동에 뛰어난 재능을 보이며, 지역 자료와 신문 자료에 대한 이해를 바탕으로 이를 탁월하게 활용함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 182,
-      "sentence_grade": 2,
-      "sentence_text": "사회 교과 활동에 적극적으로 참여하며, 사회 현상과 참여에 높은 관심을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 183,
-      "sentence_grade": 2,
-      "sentence_text": "사회 교과 활동에 적극적으로 참여하며, 조사 학습 활동에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 184,
-      "sentence_grade": 2,
-      "sentence_text": "사회 교과 활동에 적극적으로 참여하며, 지역 자료와 신문 자료에 대한 이해를 바탕으로 이를 잘 활용함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 185,
-      "sentence_grade": 3,
-      "sentence_text": "사회 교과 활동에 잘 참여하는 편이며, 사회 현상과 참여에 높은 관심을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 186,
-      "sentence_grade": 3,
-      "sentence_text": "사회 교과 활동에 잘 참여하는 편이며, 조사 학습 활동에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 187,
-      "sentence_grade": 3,
-      "sentence_text": "사회 교과 활동에 잘 참여하는 편이며, 지역 자료와 신문 자료에 대한 이해를 바탕으로 이를 잘 활용함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 16,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 188,
-      "sentence_grade": 1,
-      "sentence_text": "과학에 뛰어난 관심과 우수한 탐구능력을 보이며, 실험 또한 정확한 방법으로 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 189,
-      "sentence_grade": 1,
-      "sentence_text": "과학에 뛰어난 관심과 우수한 탐구능력을 보이며, 다양한 과학 문제에 관심을 가지고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 190,
-      "sentence_grade": 1,
-      "sentence_text": "과학에 뛰어난 관심과 우수한 탐구능력을 보이며, 과학적 사고와 방법으로 문제를 해결할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 191,
-      "sentence_grade": 2,
-      "sentence_text": "과학 교과에 적극적인 태도로 임하며, 다양한 과학 상식을 잘 알고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 192,
-      "sentence_grade": 2,
-      "sentence_text": "과학 교과에 적극적인 태도로 임하며, 과학 문제에 대한 정확하고 깊은 이해를 하고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 193,
-      "sentence_grade": 2,
-      "sentence_text": "과학 교과에 적극적인 태도로 임하며, 다양한 과학 현상을 잘 설명할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 194,
-      "sentence_grade": 3,
-      "sentence_text": "과학 수업 시간에 탐구와 실험에 잘 참여하는 편이며, 정확한 실험 절차를 설명할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 195,
-      "sentence_grade": 3,
-      "sentence_text": "과학 수업 시간에 탐구와 실험에 잘 참여하는 편이며, 다양한 과학 상식에 관심이 있음. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 196,
-      "sentence_grade": 3,
-      "sentence_text": "과학 수업 시간에 탐구와 실험에 잘 참여하는 편이며, 실생활과 관련한 과학 현상을 설명할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 17,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 197,
-      "sentence_grade": 1,
-      "sentence_text": "영어 구사 능력이 탁월하여 일상적인 주제로 원활한 의사소통이 가능함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 198,
-      "sentence_grade": 1,
-      "sentence_text": "영어 구사 능력이 탁월하여 배운 내용을 바탕으로 말하고자 하는 내용을 말할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 199,
-      "sentence_grade": 1,
-      "sentence_text": "영어 구사 능력이 탁월하며, 자유 글쓰기 활동이나 역할 놀이에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 200,
-      "sentence_grade": 2,
-      "sentence_text": "영어 구사 능력과 영어권 문화 이해 정도가 높은 편이며, 일상적인 주제로 원활한 의사소통이 가능함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 201,
-      "sentence_grade": 2,
-      "sentence_text": "영어 구사 능력과 영어권 문화 이해 정도가 높은 편이며, 배운 내용을 바탕으로 말하고자 하는 내용을 말할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 202,
-      "sentence_grade": 2,
-      "sentence_text": "영어 구사 능력과 영어권 문화 이해 정도가 높은 편이며, 자유 글쓰기 활동이나 역할 놀이에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 203,
-      "sentence_grade": 3,
-      "sentence_text": "영어 교과에 적극적으로 참여하며, 일상적인 주제로 원활한 의사소통이 가능함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 204,
-      "sentence_grade": 3,
-      "sentence_text": "영어 교과에 적극적으로 참여하며, 배운 내용을 바탕으로 말하고자 하는 내용을 말할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 205,
-      "sentence_grade": 3,
-      "sentence_text": "영어 교과에 적극적으로 참여하며, 자유 글쓰기 활동이나 역할 놀이에 적극적으로 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 18,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 206,
-      "sentence_grade": 1,
-      "sentence_text": "음악 교과의 노래 부르기 활동을 탁월하게 수행하며, 새로 배운 노래도 빠르고 정확하게 익힘.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 207,
-      "sentence_grade": 1,
-      "sentence_text": "음악 교과의 노래 부르기 활동을 탁월하게 수행하며, 친구들과 함께 노래 부르기 활동을 즐김.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 208,
-      "sentence_grade": 1,
-      "sentence_text": "음악 교과의 노래 부르기 활동을 탁월하게 수행하며, 평소에도 음악을 즐기고 생활하는 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 209,
-      "sentence_grade": 2,
-      "sentence_text": "음악 요소에 대한 정확한 이해로 노래 부르기 활동에 참여하며, 새로 배운 노래도 빠르고 정확하게 익힘.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 210,
-      "sentence_grade": 2,
-      "sentence_text": "음악 요소에 대한 정확한 이해로 노래 부르기 활동에 참여하며, 친구들과 함께 노래 부르기 활동을 즐김.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 211,
-      "sentence_grade": 2,
-      "sentence_text": "음악 요소에 대한 정확한 이해로 노래 부르기 활동에 참여하며, 평소에도 음악을 즐기고 생활하는 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 212,
-      "sentence_grade": 3,
-      "sentence_text": "노래 부르기 활동에 적극적으로 참여하며, 새로 배운 노래도 빠르고 정확하게 익힘.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 213,
-      "sentence_grade": 3,
-      "sentence_text": "노래 부르기 활동에 적극적으로 참여하며, 친구들과 함께 노래 부르기 활동을 즐김.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 214,
-      "sentence_grade": 3,
-      "sentence_text": "노래 부르기 활동에 적극적으로 참여하며, 평소에도 음악을 즐기고 생활하는 모습을 보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 19,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 215,
-      "sentence_grade": 1,
-      "sentence_text": "음악적인 재능이 있으며, 음정과 리듬이 정확하여 아름다운 연주를 할 수 있음. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 216,
-      "sentence_grade": 1,
-      "sentence_text": "음악적인 재능이 있고, 음악적 감각이 있으며 복잡한 선율의 연주도 정확한 박자와 음정으로 연주할 수 있음. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 217,
-      "sentence_grade": 1,
-      "sentence_text": "음악적인 재능이 있고, 음악적 관심과 흥미가 높으며 수준급의 연주 실력을 갖고 있음. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 218,
-      "sentence_grade": 2,
-      "sentence_text": "기악 합주에 적극적으로 참여하며, 새로운 곡도 빠르고 정확하게 익힘.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 219,
-      "sentence_grade": 2,
-      "sentence_text": "기악 합주에 적극적으로 참여하며, 연주 또한 정확한 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 220,
-      "sentence_grade": 2,
-      "sentence_text": "기악 합주에 적극적으로 참여하며, 음정과 리듬에 대한 정확한 이해를 가지고 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 221,
-      "sentence_grade": 3,
-      "sentence_text": "음악적인 요소에 대해 잘 이해하고 있는 편이며, 이를 기반으로 악기 연주 또한 잘 하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 222,
-      "sentence_grade": 3,
-      "sentence_text": "음악적인 요소에 대해 잘 이해하고 있는 편이며, 다른 친구들과의 합주 또한 협력적으로 잘 하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 223,
-      "sentence_grade": 3,
-      "sentence_text": "음악적인 요소에 대해 잘 이해하고 있는 편이며, 즐거운 마음으로 음악 활동에 잘 참여함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 20,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 224,
-      "sentence_grade": 1,
-      "sentence_text": "미술적 재능이 매우 뛰어나며, 그림을 구상해내는 아이디어가 좋고, 구체적으로 잘 표현함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 225,
-      "sentence_grade": 1,
-      "sentence_text": "미술적 재능이 매우 뛰어나며, 색감과 작품 구상 능력이 뛰어나고 표현력이 돋보임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 226,
-      "sentence_grade": 1,
-      "sentence_text": "미술적 재능이 매우 뛰어나며, 성실함을 바탕으로 미술 작품 구상 및 완성도가 높음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 227,
-      "sentence_grade": 2,
-      "sentence_text": "미술 활동에 적극적으로 참여하며, 주제에 맞게 구상을 잘 할 수 있고 끈기있게 미술활동을 하여 작품완성도가 높음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 228,
-      "sentence_grade": 2,
-      "sentence_text": "미술에 관심이 뛰어나며, 표현력과 작품 구상 능력이 뛰어나고 구상한 것을 바탕으로 형태로 잘 만들어 냄.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 229,
-      "sentence_grade": 2,
-      "sentence_text": "미술 활동에 적극적으로 참여하며, 그림을 구상해내는 아이디어가 좋고, 구체적으로 잘 표현함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 230,
-      "sentence_grade": 3,
-      "sentence_text": "그림을 구상해내는 아이디어가 좋고, 구체적으로 잘 표현하는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 231,
-      "sentence_grade": 3,
-      "sentence_text": "표현력과 작품 구상 능력이 뛰어나고 구상한 것을 바탕으로 형태로 잘 만들어 내는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 232,
-      "sentence_grade": 3,
-      "sentence_text": "주제에 맞게 구상을 잘 할 수 있고 끈기있게 미술활동을 하여 작품완성도가 높은 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 21,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 233,
-      "sentence_grade": 1,
-      "sentence_text": "운동기능과 체력이 우수한 편이며, 즐거운 마음으로 운동 경기에 임하는 모습이 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 234,
-      "sentence_grade": 1,
-      "sentence_text": "운동기능과 체력이 우수한 편이며, 피구와 축구 등의 운동 경기에서 우수한 기능을 수행할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 235,
-      "sentence_grade": 1,
-      "sentence_text": "운동기능과 체력이 우수한 편이며, 건전한 태도와 자세로 운동경기에 참여해 친구들과 운동을 즐길 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 236,
-      "sentence_grade": 2,
-      "sentence_text": "운동경기에 적극적인 태도로 참여하며, 피구와 축구 등의 운동 경기에서 기본 기능을 잘 수행할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 237,
-      "sentence_grade": 2,
-      "sentence_text": "운동경기에 적극적인 태도로 참여하며, 건전한 태도와 자세로 운동경기에 참여해 친구들과 운동을 즐길 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 238,
-      "sentence_grade": 2,
-      "sentence_text": "운동경기에 적극적인 태도로 참여하며, 단합하여 응원하고 격려하는 자세가 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 239,
-      "sentence_grade": 3,
-      "sentence_text": "피구와 축구 등의 운동 경기에서 기본 기능을 잘 수행할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 240,
-      "sentence_grade": 3,
-      "sentence_text": "기초 운동 기능과 체력이 좋은 편이며, 건전한 태도와 자세로 운동경기에 참여해 친구들과 운동을 즐기는 모습이 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 241,
-      "sentence_grade": 3,
-      "sentence_text": "기초 운동 기능과 체력이 좋은 편이며, 협력적이고 양보하는 자세로 체육 시간에 임하는 자세가 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 22,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 242,
-      "sentence_grade": 1,
-      "sentence_text": "방송댄스 등의 춤에 재능을 보이며, 음악에 맞추어 다양한 춤 동작을 잘 수행함. ",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 243,
-      "sentence_grade": 1,
-      "sentence_text": "방송댄스 등의 춤에 재능을 보이며, 빠른 안무에도 정확한 동작을 보이는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 244,
-      "sentence_grade": 1,
-      "sentence_text": "방송댄스 등의 춤에 재능을 보이며, 당당한 자세로 춤을 추는 모습이 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 245,
-      "sentence_grade": 2,
-      "sentence_text": "방송댄스에 적극적인 관심을 보이며, 열심히 연습하는 모습이 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 246,
-      "sentence_grade": 2,
-      "sentence_text": "방송댄스에 적극적인 관심을 보이며, 정확한 안무를 보이는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 247,
-      "sentence_grade": 2,
-      "sentence_text": "방송댄스에 적극적인 관심을 보이며, 친구들과 함께 안무 맞추는 것을 좋아함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 248,
-      "sentence_grade": 3,
-      "sentence_text": "친구들과 방송댄스를 열심히 연습하는 모습이 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 249,
-      "sentence_grade": 3,
-      "sentence_text": "친구들과 방송댄스를 연습하기를 즐기며, 정확한 안무를 보이는 편임.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 250,
-      "sentence_grade": 3,
-      "sentence_text": "친구들과 방송댄스를 연습하기를 즐기며, 당당한 자세로 춤을 추는 모습이 보기 좋음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 23,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 251,
-      "sentence_grade": 1,
-      "sentence_text": "주어진 과제를 해결하기 위해 문제를 분석하고, 창의적인 방법으로 문제를 해결하는 프로그램을 블록형 프로그래밍 언어를 사용해 만들어 낼 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 252,
-      "sentence_grade": 1,
-      "sentence_text": "컴퓨터를 이용한 문제 해결에 뛰어난 재능을 보이며, 언플러그드 활동이나 코딩을 탁월하게 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 253,
-      "sentence_grade": 1,
-      "sentence_text": "패턴 분석, 절차적 사고 등의 컴퓨팅 사고력에 뛰어난 재능을 보이며 주어진 문제를 코딩을 통해 탁월하게 해결할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 254,
-      "sentence_grade": 2,
-      "sentence_text": "주어진 과제를 해결하기 위해 문제를 분석하고, 절차적 사고를 통해 문제를 해결하는 프로그램을 블록형 프로그래밍 언어로 만들어낼 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 255,
-      "sentence_grade": 2,
-      "sentence_text": "컴퓨터를 이용한 문제 해결에 재능을 보이며, 언플러그드 활동이나 코딩을 잘 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 256,
-      "sentence_grade": 2,
-      "sentence_text": "패턴 분석, 절차적 사고 등의 컴퓨팅 사고력에 재능을 보이며 주어진 문제를 코딩을 통해 해결할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 257,
-      "sentence_grade": 3,
-      "sentence_text": "주어진 과제를 해결하기 위해 문제를 분석하고, 문제를 해결하는 프로그램을 블록형 프로그래밍 언어로 만들어낼 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 258,
-      "sentence_grade": 3,
-      "sentence_text": "컴퓨터를 이용한 문제 해결에 흥미를 보이며, 언플러그드 활동이나 코딩을 잘 수행함.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    },
-    {
-      "id": 259,
-      "sentence_grade": 3,
-      "sentence_text": "패턴 분석, 절차적 사고 등의 컴퓨팅 사고력이 발전된 모습을 보이며 주어진 문제를 코딩을 통해 해결할 수 있음.",
-      "sentence_date": "2020-11-14",
-      "sentence_update": "2020-11-14",
-      "subject_id_id": 24,
-      "sentence_owner_id": 1
-    }
-  ]
+  {
+    "id": 2,
+    "sentence_grade": 1,
+    "sentence_text": "학급에서의 생활태도가 매우 우수하며, 규칙의 중요성과 필요성을 알고 이에 따라 학급 내에서 규칙을 잘 지킴.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 3,
+    "sentence_grade": 1,
+    "sentence_text": "학급에서의 생활태도가 매우 우수하며, 맡겨진 역할을 충실히 수행할 뿐 아니라 남을 잘 도움.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 4,
+    "sentence_grade": 1,
+    "sentence_text": "학급에서의 생활태도가 매우 우수하며, 본인과 학우들의 학교 생활이 원활하게 이루어지도록 돕는 역할을 잘 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 5,
+    "sentence_grade": 1,
+    "sentence_text": "학급에서의 생활태도가 매우 우수하며, 규칙을 잘 지킴과 동시에 친구들에게 좋은 영향력을 끼침.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 6,
+    "sentence_grade": 1,
+    "sentence_text": "학급에서의 생활태도가 매우 우수하며, 맡겨진 역할을 잘 수행함과 동시에 친구들에게 좋은 영향력을 끼침.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 7,
+    "sentence_grade": 2,
+    "sentence_text": "학교 생활에서의 즐거운 마음과 적극성을 보이며, 학급 내 역할 수행에 성실히 임함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 8,
+    "sentence_grade": 2,
+    "sentence_text": "학교 생활에서의 즐거운 마음과 적극성을 보이며, 학급에서 주인의식을 가지고 성실히 생활함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 9,
+    "sentence_grade": 2,
+    "sentence_text": "학교 생활에서의 즐거운 마음과 적극성을 보이며, 학급 규칙을 인지하여 잘 준수함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 10,
+    "sentence_grade": 3,
+    "sentence_text": "학급 내 역할 수행에 성실히 임하고 있으며, 안전하고 편안한 학급 분위기 조성에 기여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 11,
+    "sentence_grade": 3,
+    "sentence_text": "학급에서 주인의식을 가지고 성실히 생활하며, 안전하고 편안한 학급 분위기 조성에 기여 함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 12,
+    "sentence_grade": 3,
+    "sentence_text": "학급 규칙을 인지하여 잘 준수하며, 안전하고 편안한 학급 분위기 조성에 기여 함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 13,
+    "sentence_grade": 4,
+    "sentence_text": "학급 생활 태도가 소극적이나, 학급 내에서 규칙 준수 의식과 역할 수행을 잘 하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 14,
+    "sentence_grade": 4,
+    "sentence_text": "학급 생활 태도가 소극적이나, 학급에서 주인의식을 어느 정도 갖추고 있는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 15,
+    "sentence_grade": 5,
+    "sentence_text": "학기 초에 비해 원만한 생활태도를 보이나, 학급 내에서 규칙 준수 의식과 역할 수행의 책임성을 갖출 것을 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 16,
+    "sentence_grade": 5,
+    "sentence_text": "학기 초에 비해 원만한 생활태도를 보이나, 학급에서의 주인의식과 책임감을 갖출 것을 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 1,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 17,
+    "sentence_grade": 1,
+    "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 자신의 주장을 진술하는 데에 당당한 태도를 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 18,
+    "sentence_grade": 1,
+    "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 상대에게 의견을 어느 정도 양보할 줄 아는 태도를 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 19,
+    "sentence_grade": 1,
+    "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 자신의 의견과 감정을 잘 전달하는 능력을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 20,
+    "sentence_grade": 1,
+    "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 발표하는 내용이 논리적이며 연결성 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 21,
+    "sentence_grade": 1,
+    "sentence_text": "의사소통과 자기 표현 능력이 매우 뛰어난 편이며, 친구들과 협력적인 의사소통의 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 22,
+    "sentence_grade": 2,
+    "sentence_text": "자기 표현에서의 적극성을 보이며, 관심사를 중심으로 학급 친구들과 즐겁게 이야기하는 모습을 자주 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 23,
+    "sentence_grade": 2,
+    "sentence_text": "자기 표현에서의 적극성을 보이며, 올바른 언어 태도로 자신의 의견을 전달하는 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 24,
+    "sentence_grade": 2,
+    "sentence_text": "자기 표현에서의 적극성을 보이며, 친구들의 기분을 고려하여 말하는 방법을 잘 알고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 25,
+    "sentence_grade": 3,
+    "sentence_text": "학급 내에서 소통이 원활한 편이며, 관심사를 중심으로 학급 친구들과 즐겁게 이야기하는 모습을 자주 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 26,
+    "sentence_grade": 3,
+    "sentence_text": "학급 내에서 소통이 원활한 편이며, 올바른 언어 태도로 자신의 의견을 전달하는 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 27,
+    "sentence_grade": 3,
+    "sentence_text": "학급 내에서 소통이 원활한 편이며, 친구들과 묻고 답하는 대화 기술을 잘 갖추고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 28,
+    "sentence_grade": 4,
+    "sentence_text": "학급 내에서 자기 표현이 소극적인 편이나, 올바른 언어 태도로 자신의 의견을 전달하는 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 29,
+    "sentence_grade": 4,
+    "sentence_text": "학급 내에서 자기 표현이 소극적인 편이나, 친구들과 묻고 답하는 대화 기술을 잘 갖추고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 30,
+    "sentence_grade": 5,
+    "sentence_text": "친구들과 의사소통 과정에서 장난을 많이 치는 편이며, 상대방의 기분을 고려한 말하기 자세를 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 31,
+    "sentence_grade": 5,
+    "sentence_text": "자기의 의사를 표현하는 데에 의사 전달에는 문제는 없는 편이나, 적절한 대화 기술을 필요로 함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 2,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 32,
+    "sentence_grade": 1,
+    "sentence_text": "대인 관계가 매우 좋으며, 고운 말과 긍정적인 생각으로 친구들 사이에 인기가 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 33,
+    "sentence_grade": 1,
+    "sentence_text": "대인 관계가 매우 좋으며, 늘 밝고 명랑한 생활을 하며 급우 간에 인기가 높고 자기 의사 표시를 분명히 함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 34,
+    "sentence_grade": 1,
+    "sentence_text": "대인 관계가 매우 좋으며, 사교성이 있어 대부분의 친구들과 잘 어울리며, 도움이 필요한 친구에게 먼저 다가가는 따뜻한 마음씨를 가짐.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 35,
+    "sentence_grade": 1,
+    "sentence_text": "대인 관계가 매우 좋으며, 활달하여 친구들 간의 어울림이 좋고 자기 의견도 잘 펼치며 역동적임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 36,
+    "sentence_grade": 1,
+    "sentence_text": "대인 관계가 매우 좋으며, 친구들간의 갈등을 조정하는 데에도 우수한 관계 능력을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 37,
+    "sentence_grade": 2,
+    "sentence_text": "대인 관계에서 적극적인 태도를 보이며, 매사에 자신감이 있어 많은 친구와 사귀고 공동의 일에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 38,
+    "sentence_grade": 2,
+    "sentence_text": "대인 관계에서 적극적인 태도를 보이며, 친구를 배려하는 마음을 가지려고 노력함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 39,
+    "sentence_grade": 2,
+    "sentence_text": "대인 관계에서 적극적인 태도를 보이며, 다른 사람의 상황이나 감정을 이해할 수 있는 따뜻한 마음을 지녔고 공감 능력이 뛰어남.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 40,
+    "sentence_grade": 3,
+    "sentence_text": "환하게 웃는 모습과 친구들을 챙기는 태도로 학급의 분위기를 밝게 만드는 학생임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 41,
+    "sentence_grade": 3,
+    "sentence_text": "활달한 성격으로 친구들 간의 어울림이 좋은 편이며, 자기 의견도 잘 펼치며 역동적임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 42,
+    "sentence_grade": 3,
+    "sentence_text": "다른 친구들의 기분을 공감해주고, 친구들간의 갈등을 조정하는 데에도 서로의 입장을 이해해보려는 태도를 지님.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 43,
+    "sentence_grade": 4,
+    "sentence_text": "대인 관계에서 소극적인 태도를 보이나, 남을 배려할 줄 알며 대화를 원만하게 이어나감.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 44,
+    "sentence_grade": 4,
+    "sentence_text": "대인 관계에서 소극적인 태도를 보이나, 다른 사람에게 잘 공감해주며, 양보하려는 태도를 지님.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 45,
+    "sentence_grade": 5,
+    "sentence_text": "대인 관계에서 적극적인 모습이 있으나, 상대의 입장에서 생각해보려는 태도를 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 46,
+    "sentence_grade": 5,
+    "sentence_text": "대인 관계에서 적극적인 모습이 있으나, 다소 독선적인 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 3,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 47,
+    "sentence_grade": 1,
+    "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 과제를 해결할 때 친구들의 의견을 잘 듣고 의견을 조율하며 협동하는 모습이 바람직함. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 48,
+    "sentence_grade": 1,
+    "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 내에서 의견 조율을 잘 하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 49,
+    "sentence_grade": 1,
+    "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 내에서 자신의 역할을 찾아 착실히 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 50,
+    "sentence_grade": 1,
+    "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 모둠 내에서 상대의 의견을 귀담아 들을 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 51,
+    "sentence_grade": 1,
+    "sentence_text": "모둠활동에 참여하는 태도가 매우 우수하며, 협력과 소통을 통해 모둠 과제를 성공적으로 해결함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 52,
+    "sentence_grade": 2,
+    "sentence_text": "모둠활동과 같은 협력적인 일에 적극적으로 참여하며 상대의 의견을 귀담아 들을 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 53,
+    "sentence_grade": 2,
+    "sentence_text": "모둠활동과 같은 협력적인 일에 적극적으로 참여하며 협력과 소통을 통해 모둠 과제를 성공적으로 해결함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 54,
+    "sentence_grade": 2,
+    "sentence_text": "모둠활동과 같은 협력적인 일에 적극적으로 참여하며 자신의 역할을 찾아 착실히 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 55,
+    "sentence_grade": 3,
+    "sentence_text": "모둠활동을 협력적으로 잘 수행하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 56,
+    "sentence_grade": 3,
+    "sentence_text": "모둠활동에서 다른 사람의 의견에 귀 기울여주는 태도를 지님.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 57,
+    "sentence_grade": 3,
+    "sentence_text": "모둠활동에서 협력의 중요성을 알고 자신의 역할을 잘 수행하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 58,
+    "sentence_grade": 4,
+    "sentence_text": "모둠활동에 소극적인 태도를 보이나, 주어진 역할은 잘 수행하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 59,
+    "sentence_grade": 4,
+    "sentence_text": "모둠활동에 소극적인 태도를 보이나, 다른 사람의 좋은 의견을 잘 뒷받침해줌.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 60,
+    "sentence_grade": 5,
+    "sentence_text": "학기 초에 비해 모둠 활동에서 협력적인 태도를 보이는 편이긴 하나, 가끔 독단적인 모습이나, 비협조적인 모습을 보일 때가 있어 협력적 태도를 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 61,
+    "sentence_grade": 5,
+    "sentence_text": "학기 초에 비해 모둠 활동에서 협력적인 태도를 보이는 편이긴 하나, 가끔 모둠활동에 참여하지 않는 모습을 보일 때가 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 4,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 62,
+    "sentence_grade": 1,
+    "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 성실한 학습 태도로 좋은 성적을 유지함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 63,
+    "sentence_grade": 1,
+    "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 공책 정리를 잘 하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 64,
+    "sentence_grade": 1,
+    "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 수업의 핵심 내용을 잘 파악하고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 65,
+    "sentence_grade": 1,
+    "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 수업의 내용을 잘 조직하여 정리할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 66,
+    "sentence_grade": 1,
+    "sentence_text": "학업 성취와 자기 학습 관리가 우수한 편이며, 수업 후 내용 정리와 자기 성찰을 할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 67,
+    "sentence_grade": 2,
+    "sentence_text": "학업 성취와 자기 학습 관리에 적극적인 태도를 지니고 있으며, 수업 분위기 또한 좋게 만들어 줌.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 68,
+    "sentence_grade": 2,
+    "sentence_text": "학업 성취와 자기 학습 관리에 적극적인 태도를 지니고 있으며, 적절한 발표 능력까지 뒷받침하고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 69,
+    "sentence_grade": 2,
+    "sentence_text": "학업 성취와 자기 학습 관리에 적극적인 태도를 지니고 있으며, 과제 수행의 성실성을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 70,
+    "sentence_grade": 3,
+    "sentence_text": "학업 성취와 자기 학습 관리를 적절한 방법으로 해나가고 있으며, 수업에 성실히 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 71,
+    "sentence_grade": 3,
+    "sentence_text": "학업 성취와 자기 학습 관리를 적절한 방법으로 해나가고 있으며, 발표 태도가 좋은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 72,
+    "sentence_grade": 3,
+    "sentence_text": "학업 성취와 자기 학습 관리를 적절한 방법으로 해나가고 있으며, 수업의 핵심 내용을 잘 파악함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 73,
+    "sentence_grade": 4,
+    "sentence_text": "학업 성취와 자기 학습 관리에 소홀하나, 수업 태도가 바른 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 74,
+    "sentence_grade": 4,
+    "sentence_text": "학업 성취와 자기 학습 관리에 소홀하나, 흥미로운 과제에 집중력을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 75,
+    "sentence_grade": 5,
+    "sentence_text": "학업 성취와 자기 학습 관리에 소홀하여 복습하는 태도를 기를 것을 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 76,
+    "sentence_grade": 5,
+    "sentence_text": "학업 성취와 자기 학습 관리에 소홀하여 학습에 흥미를 기를 것을 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 5,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 77,
+    "sentence_grade": 1,
+    "sentence_text": "자기 관리 능력이 우수하여 하고 싶은 것과 해야 하는 것을 철저히 구분하여 행동할 수 있으며 자기 통제력이 양호함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 78,
+    "sentence_grade": 1,
+    "sentence_text": "자기 관리 능력이 우수하여 해야 할 일에 대한 정확한 이해를 바탕으로 자신의 미래를 위해 욕구를 지연하는 것이 가능함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 79,
+    "sentence_grade": 1,
+    "sentence_text": "자기 관리 능력이 우수하여 주위가 체계적으로 정리되도록 주변을 조화롭고 가지런하게 유지할 줄 암.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 80,
+    "sentence_grade": 1,
+    "sentence_text": "자기 관리 능력이 우수하여 용의 복장이 단정하고 주위를 깨끗하게 정돈하고 깔끔한 성격임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 81,
+    "sentence_grade": 1,
+    "sentence_text": "자기 관리 능력이 우수하여 자신의 주변을 포함한 교실 환경을 잘 정돈할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 82,
+    "sentence_grade": 2,
+    "sentence_text": "자기 관리에 적극적인 태도를 보이며, 주위를 깨끗하게 정돈하고 깔끔한 성격임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 83,
+    "sentence_grade": 2,
+    "sentence_text": "자기 관리에 적극적인 태도를 보이며, 자기 통제력이 양호한 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 84,
+    "sentence_grade": 2,
+    "sentence_text": "자기 관리에 적극적인 태도를 보이며, 하고 싶은 것과 해야 하는 것에 대해 정확히 이해하고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 85,
+    "sentence_grade": 3,
+    "sentence_text": "주위를 깨끗하게 정돈하고 책상 서랍이나 사물함을 깔끔하게 정리하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 86,
+    "sentence_grade": 3,
+    "sentence_text": "하고 싶은 것과 해야 할 일을 잘 알고 있으며, 자기 통제력이 양호한 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 87,
+    "sentence_grade": 3,
+    "sentence_text": "용의 복장을 단정히 하고, 주위를 깨끗하게 정돈하는 편임",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 88,
+    "sentence_grade": 4,
+    "sentence_text": "주변 정돈을 깔끔히 하지 못해 자기 관리에 소홀한 태도를 보이는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 89,
+    "sentence_grade": 4,
+    "sentence_text": "자신이 해야 할 일을 미루는 등 자기 관리에 소홀한 태도를 보이는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 90,
+    "sentence_grade": 5,
+    "sentence_text": "책성 서랍이나 사물함 등의 자기 주변 정돈을 깔끔히 하지 못해 자기 관리 역량을 기르는 것을 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 91,
+    "sentence_grade": 5,
+    "sentence_text": "하고 싶은 것과 해야 할 일을 잘 구분하지 못하므로 자기 관리 역량을 기르는 것을 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 6,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 92,
+    "sentence_grade": 1,
+    "sentence_text": "자기 이해가 뛰어나며, 높은 자존감으로 학교생활과 대인 관계에 적극적임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 93,
+    "sentence_grade": 1,
+    "sentence_text": "자신의 장점과 단점을 매우 잘 알고 있으며, 자신 그대로의 모습을 수용하고 적극적으로 드러냄. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 94,
+    "sentence_grade": 1,
+    "sentence_text": "자기가 좋아하는 것과 싫어하는 것을 매우 잘 알고 있으며, 자신을 사랑하고 아낄 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 95,
+    "sentence_grade": 1,
+    "sentence_text": "높은 자존감을 가지고 있어 어떤 상황에서라도 긍정적인 모습을 보여줌.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 96,
+    "sentence_grade": 1,
+    "sentence_text": "높은 자기 이해도와 자존감을 바탕으로 자신을 아낄 줄 알고 매사에 긍정적인 생각을 가지고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 97,
+    "sentence_grade": 2,
+    "sentence_text": "자신의 장점과 단점을 잘 알고 있으며, 자신 그대로의 모습을 수용할 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 98,
+    "sentence_grade": 2,
+    "sentence_text": "자신이 좋아하는 것과 싫어하는 것을 잘 알고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 99,
+    "sentence_grade": 2,
+    "sentence_text": "높은 자기 이해도와 자존감을 바탕으로 자신이 좋아하는 것을 알고 자신을 아낄 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 100,
+    "sentence_grade": 3,
+    "sentence_text": "자기 이해도가 높은 편이며 이를 바탕으로 자신을 객관적으로 이해하고자 함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 101,
+    "sentence_grade": 3,
+    "sentence_text": "자신이 좋아하는 것과 싫어하는 것에 대한 이해를 형성해나가는 중임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 102,
+    "sentence_grade": 3,
+    "sentence_text": "자신을 존중하는 법을 알고 이를 바람직한 언행으로 실천함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 103,
+    "sentence_grade": 4,
+    "sentence_text": "자기를 존중하는 법을 배워나가는 중이며 스스로 자존감을 북돋을 필요가 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 104,
+    "sentence_grade": 4,
+    "sentence_text": "자신이 좋아하는 것과 잘하는 것 등에 대한 이해를 형성해나가는 중임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 105,
+    "sentence_grade": 5,
+    "sentence_text": "자존감이 낮은 편이며 스스로 자존감을 북돋을 필요가 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 106,
+    "sentence_grade": 5,
+    "sentence_text": "자기 이해가 낮은 편이며 자신이 좋아하는 것과 잘하는 것 등에 대한 탐구가 필요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 7,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 107,
+    "sentence_grade": 1,
+    "sentence_text": "높은 수준의 안전의식을 가지고 있으며 위험한 장난을 치지 않고, 위험상황으로부터 스스로 지킬 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 108,
+    "sentence_grade": 1,
+    "sentence_text": "안전교육 참여도가 매우 높으며 올바른 지식과 행동으로 위험상황에 대처할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 109,
+    "sentence_grade": 1,
+    "sentence_text": "안전의 중요성과 실천 방법을 잘 습득하였고, 위험상황과 그 대처 방법을 잘 설명할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 110,
+    "sentence_grade": 1,
+    "sentence_text": "높은 수준의 안전의식을 바탕으로 자신뿐만 아니라 다른 사람의 안전까지 지키고자 노력함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 111,
+    "sentence_grade": 1,
+    "sentence_text": "안전의 중요성과 실천 방법에 대한 이해도가 매우 높은 편이며 위험한 장난을 치지 않고, 생활 속에서 안전 수칙을 잘 준수함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 112,
+    "sentence_grade": 2,
+    "sentence_text": "안전교육 참여도가 높으며, 위험 상황에 대처하는 방법을 잘 설명함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 113,
+    "sentence_grade": 2,
+    "sentence_text": "안전의식을 잘 형성하였고, 위험 상황에서 자신뿐만 아니라 다른 사람의 안전까지 지키고자 노력함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 114,
+    "sentence_grade": 2,
+    "sentence_text": "안전의 중요성과 실천 방법에 대한 이해도가 높은 편이며 위험한 장난을 치지 않고, 생활 속에서 안전 수칙을 준수함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 115,
+    "sentence_grade": 3,
+    "sentence_text": "안전 수업에 잘 참여하였고, 안전 수칙에 대한 이해를 바탕으로 생활 속에서 실천함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 116,
+    "sentence_grade": 3,
+    "sentence_text": "안전의 중요성과 생활 속에서의 실천 방법을 잘 설명할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 117,
+    "sentence_grade": 3,
+    "sentence_text": "위험한 장난을 치지 않고, 위험 상황으로부터 스스로 지킬 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 118,
+    "sentence_grade": 4,
+    "sentence_text": "가끔 위험한 장난을 치는 편이나, 위험 상황에 대한 대처 방법을 알고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 119,
+    "sentence_grade": 4,
+    "sentence_text": "가끔 안전 수칙을 위반하는 편이나, 안전의 중요성과 실천 방안에 대한 이해를 바탕으로 안전 의식을 형성해나가는 중임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 120,
+    "sentence_grade": 5,
+    "sentence_text": "위험한 장난을 자주 치며, 스스로 안전 의식을 지닐 것을 요함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 121,
+    "sentence_grade": 5,
+    "sentence_text": "안전 수칙을 자주 위반하는 편이며, 안전의 중요성을 알고 생활 속에서 실천할 필요가 있음. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 8,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 122,
+    "sentence_grade": 1,
+    "sentence_text": "창의성이 매우 뛰어나며, 다양한 발상 기법으로 창의적인 아이디어를 내놓음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 123,
+    "sentence_grade": 1,
+    "sentence_text": "창의성이 매우 뛰어나며, 우수한 창의력으로 문제해결 아이디어를 내놓음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 124,
+    "sentence_grade": 1,
+    "sentence_text": "창의성이 매우 뛰어나며, 이를 적절한 방법으로 표현하고 정교화하여 문제를 해결함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 125,
+    "sentence_grade": 2,
+    "sentence_text": "창의성을 요구하는 과제에 적극성을 보이며, 창의력 발달의 기질을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 126,
+    "sentence_grade": 2,
+    "sentence_text": "창의성을 요구하는 과제에 적극성을 보이며, 좋은 아이디어를 조직화하여 잘 전달함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 127,
+    "sentence_grade": 2,
+    "sentence_text": "창의성을 요구하는 과제에 적극성을 보이며, 과제에 몰입하는 성실성 또한 갖추고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 128,
+    "sentence_grade": 3,
+    "sentence_text": "창의성을 요구하는 과제에 흥미를 가지고 잘 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 129,
+    "sentence_grade": 3,
+    "sentence_text": "창의성을 요구하는 과제에서 자신의 창의성을 잘 피력함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 130,
+    "sentence_grade": 3,
+    "sentence_text": "창의성을 요구하는 과제에서 기발한 아이디어를 내놓음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 9,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 131,
+    "sentence_grade": 1,
+    "sentence_text": "놀이에 대한 이해가 매우 뛰어나며, 친구들과 함께 적극적으로 참여하고 즐길 줄 앎.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 132,
+    "sentence_grade": 1,
+    "sentence_text": "놀이 규칙을 매우 잘 이해하고 있으며, 놀이를 창의적으로 즐길 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 133,
+    "sentence_grade": 1,
+    "sentence_text": "놀이 활동 시간에 매우 적극적으로 참여하며 즐거운 학교생활을 누림.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 134,
+    "sentence_grade": 2,
+    "sentence_text": "놀이 활동 시간에 규칙을 잘 준수하며, 친구들과 함께 놀이를 즐김.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 135,
+    "sentence_grade": 2,
+    "sentence_text": "놀이 규칙을 잘 이해하고 있으며, 지나치게 경쟁하기보다는 실력에 상관없이 친구들과 함께 놀이를 즐기려고 함. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 136,
+    "sentence_grade": 2,
+    "sentence_text": "놀이의 특징과 규칙을 알고, 모든 놀이에 적극적으로 참여하여 즐김.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 137,
+    "sentence_grade": 3,
+    "sentence_text": "놀이 시간에 지나치게 경쟁하기보다는 적극적인 참여와 재미를 추구함. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 138,
+    "sentence_grade": 3,
+    "sentence_text": "놀이 시간 동안 기본적인 규칙을 준수할 뿐 아니라 창의적인 놀이를 추구함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 139,
+    "sentence_grade": 3,
+    "sentence_text": "놀이 규칙을 잘 이해하고 있으며, 쉬는 시간에도 친구들과 놀이를 잘 즐기는 편임. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 10,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 140,
+    "sentence_grade": 1,
+    "sentence_text": "받아쓰기 성적이 매우 우수하며, 문장 구사 또한 풍부하고 훌륭한 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 11,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 141,
+    "sentence_grade": 1,
+    "sentence_text": "받아쓰기 성적이 매우 우수하며, 생활 속에서 문장의 정확도가 높은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 11,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 142,
+    "sentence_grade": 2,
+    "sentence_text": "받아쓰기를 거의 틀리지 않으며, 문장 구사를 풍부히 할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 11,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 143,
+    "sentence_grade": 2,
+    "sentence_text": "받아쓰기를 거의 틀리지 않으며, 생활 속에서 문장을 정확히 구사함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 11,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 144,
+    "sentence_grade": 3,
+    "sentence_text": "받아쓰기 정확도가 높으며, 문장 구사도 또한 높음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 11,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 145,
+    "sentence_grade": 3,
+    "sentence_text": "받아쓰기 정확도가 높으며, 생활 속에서 문장을 구사할 때 거의 틀리지 않음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 11,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 146,
+    "sentence_grade": 1,
+    "sentence_text": "종합장을 비롯한 공책에 글씨를 반듯하고 예쁘게 쓸 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 12,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 147,
+    "sentence_grade": 1,
+    "sentence_text": "글씨 쓰기에 흥미를 보이며 글씨를 반듯하고 예쁘게 쓸 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 12,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 148,
+    "sentence_grade": 2,
+    "sentence_text": "공책에 글씨를 반듯하고 예쁘게 쓸 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 12,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 149,
+    "sentence_grade": 2,
+    "sentence_text": "예쁜 글씨 쓰기에 흥미를 보이며 교과서와 공책에 글씨를 반듯하게 씀.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 12,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 150,
+    "sentence_grade": 3,
+    "sentence_text": "글씨 쓰기에 흥미를 보이며 글씨를 쓰는 능력이 매우 발전하였음. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 12,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 151,
+    "sentence_grade": 3,
+    "sentence_text": "글씨 쓰기에 흥미를 보이며 네모 칸 안에 글씨를 반듯하고 예쁘게 쓸 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 12,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 152,
+    "sentence_grade": 1,
+    "sentence_text": "책 읽기에 높은 흥미를 보이며, 책 읽고 나누기, 책의 뒷내용 상상하기 등 창의적인 독서 생활을 실천함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 153,
+    "sentence_grade": 1,
+    "sentence_text": "책을 읽는 동안 높은 집중력을 보이며, 다양한 주제와 형식의 책을 읽고 생활화 함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 154,
+    "sentence_grade": 1,
+    "sentence_text": "평소 독서량이 많은 편이며, 창의적이고 비판적인 책읽기 활동에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 155,
+    "sentence_grade": 2,
+    "sentence_text": "책 읽기에 높은 흥미를 보이며, 독서 시간 이외에도 책 읽기를 생활화함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 156,
+    "sentence_grade": 2,
+    "sentence_text": "책을 읽는 동안 높은 집중력을 보이며, 자신이 좋아하는 주제의 책을 찾아 독서를 생활화 함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 157,
+    "sentence_grade": 2,
+    "sentence_text": "평소 독서량이 많은 편이며, 창의적이고 수용적인 책읽기 활동을 잘 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 158,
+    "sentence_grade": 3,
+    "sentence_text": "책 읽기에 높은 흥미를 보이며, 독서량이 많은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 159,
+    "sentence_grade": 3,
+    "sentence_text": "책을 읽는 동안 높은 집중력을 보이며, 책을 읽고 이야기 나누기에 적극적으로 참여함. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 160,
+    "sentence_grade": 3,
+    "sentence_text": "평소 독서량이 많은 편이며, 독서 후 활동에도 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 13,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 161,
+    "sentence_grade": 1,
+    "sentence_text": "국어 교과의 말하기, 쓰기 등의 영역에 뛰어난 재능을 보이며, 작품 읽고 생각나누기, 토의·토론 활동 등에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 162,
+    "sentence_grade": 1,
+    "sentence_text": "국어 교과의 말하기, 쓰기 등의 영역에 뛰어난 재능을 보이며, 문학적 상상력과 자기 표현력 등이 높은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 163,
+    "sentence_grade": 1,
+    "sentence_text": "국어 교과의 말하기, 쓰기 등의 영역에 뛰어난 재능을 보이며, 창의적·비판적 글쓰기 실력이 좋은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 164,
+    "sentence_grade": 2,
+    "sentence_text": "국어 교과 활동에 적극적으로 참여하며, 작품 읽고 생각나누기, 토의·토론 활동 등에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 165,
+    "sentence_grade": 2,
+    "sentence_text": "국어 교과 활동에 적극적으로 참여하며, 문학적 상상력과 자기 표현력 등이 높은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 166,
+    "sentence_grade": 2,
+    "sentence_text": "국어 교과 활동에 적극적으로 참여하며, 창의적·비판적 글쓰기 실력이 좋은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 167,
+    "sentence_grade": 3,
+    "sentence_text": "국어 교과 활동에 잘 참여하는 편이며, 작품 읽고 생각나누기, 토의·토론 활동 등에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 168,
+    "sentence_grade": 3,
+    "sentence_text": "국어 교과 활동에 잘 참여하는 편이며, 문학적 상상력과 자기 표현력 등이 높은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 169,
+    "sentence_grade": 3,
+    "sentence_text": "국어 교과 활동에 잘 참여하는 편이며, 창의적·비판적 글쓰기 실력이 좋은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 14,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 170,
+    "sentence_grade": 1,
+    "sentence_text": "수학에 뛰어난 흥미와 재능을 보이며, 문제를 푸는 방법이 정확하고, 수식 적용이 빠른 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 171,
+    "sentence_grade": 1,
+    "sentence_text": "수학에 뛰어난 흥미와 재능을 보이며, 문제 풀이 방법을 확장하여 다양한 문제를 해결함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 172,
+    "sentence_grade": 1,
+    "sentence_text": "수학에 뛰어난 흥미와 재능을 보이며, 보통 이상의 수준의 문제에 도전하여 잘 해결할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 173,
+    "sentence_grade": 2,
+    "sentence_text": "수학 교과에 큰 관심을 보이며, 문제를 푸는 방법이 정확한 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 174,
+    "sentence_grade": 2,
+    "sentence_text": "수학 교과에 큰 관심을 보이며, 복잡한 문제도 잘 정리하여 해결함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 175,
+    "sentence_grade": 2,
+    "sentence_text": "수학 교과에 큰 관심을 보이며, 어려운 문제에도 흥미를 가지고 도전함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 176,
+    "sentence_grade": 3,
+    "sentence_text": "수학 수업 시간에 발표와 문제풀이를 잘 하는 편이며, 현상에 대한 수학적인 설명을 잘 하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 177,
+    "sentence_grade": 3,
+    "sentence_text": "수학 수업 시간에 발표와 문제풀이를 잘 하는 편이며, 문제에 대한 설명 또한 잘 하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 178,
+    "sentence_grade": 3,
+    "sentence_text": "수학 수업 시간에 발표와 문제풀이를 잘 하는 편이며, 수학적 아이디어 또한 좋은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 15,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 179,
+    "sentence_grade": 1,
+    "sentence_text": "사회 교과의 지식 탐구 활동에 뛰어난 재능을 보이며, 사회 현상과 참여에 높은 관심을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 180,
+    "sentence_grade": 1,
+    "sentence_text": "사회 교과의 지식 탐구 활동에 뛰어난 재능을 보이며, 조사 학습 활동에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 181,
+    "sentence_grade": 1,
+    "sentence_text": "사회 교과의 지식 탐구 활동에 뛰어난 재능을 보이며, 지역 자료와 신문 자료에 대한 이해를 바탕으로 이를 탁월하게 활용함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 182,
+    "sentence_grade": 2,
+    "sentence_text": "사회 교과 활동에 적극적으로 참여하며, 사회 현상과 참여에 높은 관심을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 183,
+    "sentence_grade": 2,
+    "sentence_text": "사회 교과 활동에 적극적으로 참여하며, 조사 학습 활동에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 184,
+    "sentence_grade": 2,
+    "sentence_text": "사회 교과 활동에 적극적으로 참여하며, 지역 자료와 신문 자료에 대한 이해를 바탕으로 이를 잘 활용함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 185,
+    "sentence_grade": 3,
+    "sentence_text": "사회 교과 활동에 잘 참여하는 편이며, 사회 현상과 참여에 높은 관심을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 186,
+    "sentence_grade": 3,
+    "sentence_text": "사회 교과 활동에 잘 참여하는 편이며, 조사 학습 활동에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 187,
+    "sentence_grade": 3,
+    "sentence_text": "사회 교과 활동에 잘 참여하는 편이며, 지역 자료와 신문 자료에 대한 이해를 바탕으로 이를 잘 활용함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 16,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 188,
+    "sentence_grade": 1,
+    "sentence_text": "과학에 뛰어난 관심과 우수한 탐구능력을 보이며, 실험 또한 정확한 방법으로 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 189,
+    "sentence_grade": 1,
+    "sentence_text": "과학에 뛰어난 관심과 우수한 탐구능력을 보이며, 다양한 과학 문제에 관심을 가지고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 190,
+    "sentence_grade": 1,
+    "sentence_text": "과학에 뛰어난 관심과 우수한 탐구능력을 보이며, 과학적 사고와 방법으로 문제를 해결할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 191,
+    "sentence_grade": 2,
+    "sentence_text": "과학 교과에 적극적인 태도로 임하며, 다양한 과학 상식을 잘 알고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 192,
+    "sentence_grade": 2,
+    "sentence_text": "과학 교과에 적극적인 태도로 임하며, 과학 문제에 대한 정확하고 깊은 이해를 하고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 193,
+    "sentence_grade": 2,
+    "sentence_text": "과학 교과에 적극적인 태도로 임하며, 다양한 과학 현상을 잘 설명할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 194,
+    "sentence_grade": 3,
+    "sentence_text": "과학 수업 시간에 탐구와 실험에 잘 참여하는 편이며, 정확한 실험 절차를 설명할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 195,
+    "sentence_grade": 3,
+    "sentence_text": "과학 수업 시간에 탐구와 실험에 잘 참여하는 편이며, 다양한 과학 상식에 관심이 있음. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 196,
+    "sentence_grade": 3,
+    "sentence_text": "과학 수업 시간에 탐구와 실험에 잘 참여하는 편이며, 실생활과 관련한 과학 현상을 설명할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 17,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 197,
+    "sentence_grade": 1,
+    "sentence_text": "영어 구사 능력이 탁월하여 일상적인 주제로 원활한 의사소통이 가능함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 198,
+    "sentence_grade": 1,
+    "sentence_text": "영어 구사 능력이 탁월하여 배운 내용을 바탕으로 말하고자 하는 내용을 말할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 199,
+    "sentence_grade": 1,
+    "sentence_text": "영어 구사 능력이 탁월하며, 자유 글쓰기 활동이나 역할 놀이에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 200,
+    "sentence_grade": 2,
+    "sentence_text": "영어 구사 능력과 영어권 문화 이해 정도가 높은 편이며, 일상적인 주제로 원활한 의사소통이 가능함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 201,
+    "sentence_grade": 2,
+    "sentence_text": "영어 구사 능력과 영어권 문화 이해 정도가 높은 편이며, 배운 내용을 바탕으로 말하고자 하는 내용을 말할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 202,
+    "sentence_grade": 2,
+    "sentence_text": "영어 구사 능력과 영어권 문화 이해 정도가 높은 편이며, 자유 글쓰기 활동이나 역할 놀이에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 203,
+    "sentence_grade": 3,
+    "sentence_text": "영어 교과에 적극적으로 참여하며, 일상적인 주제로 원활한 의사소통이 가능함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 204,
+    "sentence_grade": 3,
+    "sentence_text": "영어 교과에 적극적으로 참여하며, 배운 내용을 바탕으로 말하고자 하는 내용을 말할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 205,
+    "sentence_grade": 3,
+    "sentence_text": "영어 교과에 적극적으로 참여하며, 자유 글쓰기 활동이나 역할 놀이에 적극적으로 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 18,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 206,
+    "sentence_grade": 1,
+    "sentence_text": "음악 교과의 노래 부르기 활동을 탁월하게 수행하며, 새로 배운 노래도 빠르고 정확하게 익힘.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 207,
+    "sentence_grade": 1,
+    "sentence_text": "음악 교과의 노래 부르기 활동을 탁월하게 수행하며, 친구들과 함께 노래 부르기 활동을 즐김.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 208,
+    "sentence_grade": 1,
+    "sentence_text": "음악 교과의 노래 부르기 활동을 탁월하게 수행하며, 평소에도 음악을 즐기고 생활하는 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 209,
+    "sentence_grade": 2,
+    "sentence_text": "음악 요소에 대한 정확한 이해로 노래 부르기 활동에 참여하며, 새로 배운 노래도 빠르고 정확하게 익힘.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 210,
+    "sentence_grade": 2,
+    "sentence_text": "음악 요소에 대한 정확한 이해로 노래 부르기 활동에 참여하며, 친구들과 함께 노래 부르기 활동을 즐김.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 211,
+    "sentence_grade": 2,
+    "sentence_text": "음악 요소에 대한 정확한 이해로 노래 부르기 활동에 참여하며, 평소에도 음악을 즐기고 생활하는 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 212,
+    "sentence_grade": 3,
+    "sentence_text": "노래 부르기 활동에 적극적으로 참여하며, 새로 배운 노래도 빠르고 정확하게 익힘.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 213,
+    "sentence_grade": 3,
+    "sentence_text": "노래 부르기 활동에 적극적으로 참여하며, 친구들과 함께 노래 부르기 활동을 즐김.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 214,
+    "sentence_grade": 3,
+    "sentence_text": "노래 부르기 활동에 적극적으로 참여하며, 평소에도 음악을 즐기고 생활하는 모습을 보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 19,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 215,
+    "sentence_grade": 1,
+    "sentence_text": "음악적인 재능이 있으며, 음정과 리듬이 정확하여 아름다운 연주를 할 수 있음. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 216,
+    "sentence_grade": 1,
+    "sentence_text": "음악적인 재능이 있고, 음악적 감각이 있으며 복잡한 선율의 연주도 정확한 박자와 음정으로 연주할 수 있음. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 217,
+    "sentence_grade": 1,
+    "sentence_text": "음악적인 재능이 있고, 음악적 관심과 흥미가 높으며 수준급의 연주 실력을 갖고 있음. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 218,
+    "sentence_grade": 2,
+    "sentence_text": "기악 합주에 적극적으로 참여하며, 새로운 곡도 빠르고 정확하게 익힘.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 219,
+    "sentence_grade": 2,
+    "sentence_text": "기악 합주에 적극적으로 참여하며, 연주 또한 정확한 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 220,
+    "sentence_grade": 2,
+    "sentence_text": "기악 합주에 적극적으로 참여하며, 음정과 리듬에 대한 정확한 이해를 가지고 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 221,
+    "sentence_grade": 3,
+    "sentence_text": "음악적인 요소에 대해 잘 이해하고 있는 편이며, 이를 기반으로 악기 연주 또한 잘 하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 222,
+    "sentence_grade": 3,
+    "sentence_text": "음악적인 요소에 대해 잘 이해하고 있는 편이며, 다른 친구들과의 합주 또한 협력적으로 잘 하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 223,
+    "sentence_grade": 3,
+    "sentence_text": "음악적인 요소에 대해 잘 이해하고 있는 편이며, 즐거운 마음으로 음악 활동에 잘 참여함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 20,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 224,
+    "sentence_grade": 1,
+    "sentence_text": "미술적 재능이 매우 뛰어나며, 그림을 구상해내는 아이디어가 좋고, 구체적으로 잘 표현함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 225,
+    "sentence_grade": 1,
+    "sentence_text": "미술적 재능이 매우 뛰어나며, 색감과 작품 구상 능력이 뛰어나고 표현력이 돋보임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 226,
+    "sentence_grade": 1,
+    "sentence_text": "미술적 재능이 매우 뛰어나며, 성실함을 바탕으로 미술 작품 구상 및 완성도가 높음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 227,
+    "sentence_grade": 2,
+    "sentence_text": "미술 활동에 적극적으로 참여하며, 주제에 맞게 구상을 잘 할 수 있고 끈기있게 미술활동을 하여 작품완성도가 높음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 228,
+    "sentence_grade": 2,
+    "sentence_text": "미술에 관심이 뛰어나며, 표현력과 작품 구상 능력이 뛰어나고 구상한 것을 바탕으로 형태로 잘 만들어 냄.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 229,
+    "sentence_grade": 2,
+    "sentence_text": "미술 활동에 적극적으로 참여하며, 그림을 구상해내는 아이디어가 좋고, 구체적으로 잘 표현함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 230,
+    "sentence_grade": 3,
+    "sentence_text": "그림을 구상해내는 아이디어가 좋고, 구체적으로 잘 표현하는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 231,
+    "sentence_grade": 3,
+    "sentence_text": "표현력과 작품 구상 능력이 뛰어나고 구상한 것을 바탕으로 형태로 잘 만들어 내는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 232,
+    "sentence_grade": 3,
+    "sentence_text": "주제에 맞게 구상을 잘 할 수 있고 끈기있게 미술활동을 하여 작품완성도가 높은 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 21,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 233,
+    "sentence_grade": 1,
+    "sentence_text": "운동기능과 체력이 우수한 편이며, 즐거운 마음으로 운동 경기에 임하는 모습이 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 234,
+    "sentence_grade": 1,
+    "sentence_text": "운동기능과 체력이 우수한 편이며, 피구와 축구 등의 운동 경기에서 우수한 기능을 수행할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 235,
+    "sentence_grade": 1,
+    "sentence_text": "운동기능과 체력이 우수한 편이며, 건전한 태도와 자세로 운동경기에 참여해 친구들과 운동을 즐길 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 236,
+    "sentence_grade": 2,
+    "sentence_text": "운동경기에 적극적인 태도로 참여하며, 피구와 축구 등의 운동 경기에서 기본 기능을 잘 수행할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 237,
+    "sentence_grade": 2,
+    "sentence_text": "운동경기에 적극적인 태도로 참여하며, 건전한 태도와 자세로 운동경기에 참여해 친구들과 운동을 즐길 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 238,
+    "sentence_grade": 2,
+    "sentence_text": "운동경기에 적극적인 태도로 참여하며, 단합하여 응원하고 격려하는 자세가 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 239,
+    "sentence_grade": 3,
+    "sentence_text": "피구와 축구 등의 운동 경기에서 기본 기능을 잘 수행할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 240,
+    "sentence_grade": 3,
+    "sentence_text": "기초 운동 기능과 체력이 좋은 편이며, 건전한 태도와 자세로 운동경기에 참여해 친구들과 운동을 즐기는 모습이 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 241,
+    "sentence_grade": 3,
+    "sentence_text": "기초 운동 기능과 체력이 좋은 편이며, 협력적이고 양보하는 자세로 체육 시간에 임하는 자세가 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 22,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 242,
+    "sentence_grade": 1,
+    "sentence_text": "방송댄스 등의 춤에 재능을 보이며, 음악에 맞추어 다양한 춤 동작을 잘 수행함. ",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 243,
+    "sentence_grade": 1,
+    "sentence_text": "방송댄스 등의 춤에 재능을 보이며, 빠른 안무에도 정확한 동작을 보이는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 244,
+    "sentence_grade": 1,
+    "sentence_text": "방송댄스 등의 춤에 재능을 보이며, 당당한 자세로 춤을 추는 모습이 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 245,
+    "sentence_grade": 2,
+    "sentence_text": "방송댄스에 적극적인 관심을 보이며, 열심히 연습하는 모습이 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 246,
+    "sentence_grade": 2,
+    "sentence_text": "방송댄스에 적극적인 관심을 보이며, 정확한 안무를 보이는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 247,
+    "sentence_grade": 2,
+    "sentence_text": "방송댄스에 적극적인 관심을 보이며, 친구들과 함께 안무 맞추는 것을 좋아함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 248,
+    "sentence_grade": 3,
+    "sentence_text": "친구들과 방송댄스를 열심히 연습하는 모습이 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 249,
+    "sentence_grade": 3,
+    "sentence_text": "친구들과 방송댄스를 연습하기를 즐기며, 정확한 안무를 보이는 편임.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 250,
+    "sentence_grade": 3,
+    "sentence_text": "친구들과 방송댄스를 연습하기를 즐기며, 당당한 자세로 춤을 추는 모습이 보기 좋음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 23,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 251,
+    "sentence_grade": 1,
+    "sentence_text": "주어진 과제를 해결하기 위해 문제를 분석하고, 창의적인 방법으로 문제를 해결하는 프로그램을 블록형 프로그래밍 언어를 사용해 만들어 낼 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 252,
+    "sentence_grade": 1,
+    "sentence_text": "컴퓨터를 이용한 문제 해결에 뛰어난 재능을 보이며, 언플러그드 활동이나 코딩을 탁월하게 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 253,
+    "sentence_grade": 1,
+    "sentence_text": "패턴 분석, 절차적 사고 등의 컴퓨팅 사고력에 뛰어난 재능을 보이며 주어진 문제를 코딩을 통해 탁월하게 해결할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 254,
+    "sentence_grade": 2,
+    "sentence_text": "주어진 과제를 해결하기 위해 문제를 분석하고, 절차적 사고를 통해 문제를 해결하는 프로그램을 블록형 프로그래밍 언어로 만들어낼 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 255,
+    "sentence_grade": 2,
+    "sentence_text": "컴퓨터를 이용한 문제 해결에 재능을 보이며, 언플러그드 활동이나 코딩을 잘 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 256,
+    "sentence_grade": 2,
+    "sentence_text": "패턴 분석, 절차적 사고 등의 컴퓨팅 사고력에 재능을 보이며 주어진 문제를 코딩을 통해 해결할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 257,
+    "sentence_grade": 3,
+    "sentence_text": "주어진 과제를 해결하기 위해 문제를 분석하고, 문제를 해결하는 프로그램을 블록형 프로그래밍 언어로 만들어낼 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 258,
+    "sentence_grade": 3,
+    "sentence_text": "컴퓨터를 이용한 문제 해결에 흥미를 보이며, 언플러그드 활동이나 코딩을 잘 수행함.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 259,
+    "sentence_grade": 3,
+    "sentence_text": "패턴 분석, 절차적 사고 등의 컴퓨팅 사고력이 발전된 모습을 보이며 주어진 문제를 코딩을 통해 해결할 수 있음.",
+    "sentence_date": "2020-11-14",
+    "sentence_update": "2020-11-14",
+    "subject_id_id": 24,
+    "sentence_owner_id": 1
+  },
+  {
+    "id": 260,
+    "sentence_text": "수업 시간 주어진 과제를 끝까지 집중하여 완벽하게 완수하는 모습이 두드러짐.",
+    "sentence_grade": 1,
+    "subject_id_id": 25
+  },
+  {
+    "id": 261,
+    "sentence_text": "조별활동에서 담당한 책무를 철저하고 성실하게 완료하여 우수한 결과를 도출함.",
+    "sentence_grade": 1,
+    "subject_id_id": 25
+  },
+  {
+    "id": 262,
+    "sentence_text": "복잡한 프로젝트를 체계적으로 추진하여 뛰어난 완성도로 마무리함.",
+    "sentence_grade": 1,
+    "subject_id_id": 25
+  },
+  {
+    "id": 263,
+    "sentence_text": "장시간 집중을 요하는 활동에서 끝까지 의욕을 유지하며 책임감 있게 완수함.",
+    "sentence_grade": 1,
+    "subject_id_id": 25
+  },
+  {
+    "id": 264,
+    "sentence_text": "주어진 모든 과제를 최고 수준의 성실함으로 처리하는 모습이 인상 깊음.",
+    "sentence_grade": 1,
+    "subject_id_id": 25
+  },
+  {
+    "id": 265,
+    "sentence_text": "수업 중 제시된 과제를 꼼꼼하게 챙기어 완성도 있게 완수함.",
+    "sentence_grade": 2,
+    "subject_id_id": 25
+  },
+  {
+    "id": 266,
+    "sentence_text": "조활동에서 맡은 역할을 책임감 있게 수행하여 좋은 결과를 냄.",
+    "sentence_grade": 2,
+    "subject_id_id": 25
+  },
+  {
+    "id": 267,
+    "sentence_text": "발표 준비 과정에서 집중력을 유지하며 잘 준비된 모습을 드러냄.",
+    "sentence_grade": 2,
+    "subject_id_id": 25
+  },
+  {
+    "id": 268,
+    "sentence_text": "어려운 과제도 끝까지 포기하지 않고 성실하게 완료함.",
+    "sentence_grade": 2,
+    "subject_id_id": 25
+  },
+  {
+    "id": 269,
+    "sentence_text": "주어진 책무에 집중하여 전반적으로 잘 처리하는 모습을 보임.",
+    "sentence_grade": 2,
+    "subject_id_id": 25
+  },
+  {
+    "id": 270,
+    "sentence_text": "수업 시간 제시된 과제를 기한 내에 완수하는 모습을 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 25
+  },
+  {
+    "id": 271,
+    "sentence_text": "조별활동에서 자신의 역할을 기본적으로 수행하고 완료함.",
+    "sentence_grade": 3,
+    "subject_id_id": 25
+  },
+  {
+    "id": 272,
+    "sentence_text": "프로젝트 진행 과정에서 필요한 각 단계의 작업을 성실히 처리함.",
+    "sentence_grade": 3,
+    "subject_id_id": 25
+  },
+  {
+    "id": 273,
+    "sentence_text": "주어진 책무에 대해 책임감을 갖고 마무리하려는 태도를 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 25
+  },
+  {
+    "id": 274,
+    "sentence_text": "과제 수행 중 일정 수준의 집중력을 유지하는 모습이 드러남.",
+    "sentence_grade": 3,
+    "subject_id_id": 25
+  },
+  {
+    "id": 275,
+    "sentence_text": "수업 시간 주어진 과제를 완료하려는 노력을 기울이나 집중이 산만해지는 경향이 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 25
+  },
+  {
+    "id": 276,
+    "sentence_text": "조활동 참여 중 맡은 역할을 마무리하려 하나 충분한 책임감이 부족해 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 25
+  },
+  {
+    "id": 277,
+    "sentence_text": "과제 진행 중 다소 미흡한 집중력을 보이나 끝까지 마무리하려는 의지는 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 25
+  },
+  {
+    "id": 278,
+    "sentence_text": "책무 완수를 향한 노력이 일관되지 않으나 결국 마무리하는 모습을 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 25
+  },
+  {
+    "id": 279,
+    "sentence_text": "더욱 꾸준한 집중력을 발휘한다면 더욱 좋은 성과를 거두리라 봄.",
+    "sentence_grade": 4,
+    "subject_id_id": 25
+  },
+  {
+    "id": 280,
+    "sentence_text": "수업 중 주어진 과제를 완료하기 위해 노력하고 있으니, 집중력 향상에 더욱 힘쓴다면 성장하리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 25
+  },
+  {
+    "id": 281,
+    "sentence_text": "주어진 책무에 대한 인식을 가지고 있으므로 책임감 있는 태도를 지속한다면 발전을 기대할 수 있음.",
+    "sentence_grade": 5,
+    "subject_id_id": 25
+  },
+  {
+    "id": 282,
+    "sentence_text": "조활동 참여에 관심을 보이고 있으니, 더욱 집중하여 과제를 완수한다면 우수한 성과를 거두리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 25
+  },
+  {
+    "id": 283,
+    "sentence_text": "과제를 끝까지 마치려는 마음가짐이 있으므로, 집중도를 높인다면 더욱 효과적인 완수가 가능함.",
+    "sentence_grade": 5,
+    "subject_id_id": 25
+  },
+  {
+    "id": 284,
+    "sentence_text": "자신의 책무를 인식하고 노력하는 모습이 있으므로, 산만함을 극복하고 더욱 집중한다면 뛰어난 발전을 이루리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 25
+  },
+  {
+    "id": 285,
+    "sentence_text": "반대 의견을 제시하는 친구들의 입장을 충분히 수용하고 경청하는 자세가 뛰어남.",
+    "sentence_grade": 1,
+    "subject_id_id": 26
+  },
+  {
+    "id": 286,
+    "sentence_text": "조별활동에서 다양한 배경의 친구들과 함께할 때 모든 의견을 존중하는 포용적 태도를 보임.",
+    "sentence_grade": 1,
+    "subject_id_id": 26
+  },
+  {
+    "id": 287,
+    "sentence_text": "학급의 소수 의견에 대해 경청하고 인정하려는 노력이 두드러져 학급 문화를 긍정적으로 이끌어감.",
+    "sentence_grade": 1,
+    "subject_id_id": 26
+  },
+  {
+    "id": 288,
+    "sentence_text": "차이와 다름을 자연스럽게 수용하는 성숙한 모습이 인상 깊음.",
+    "sentence_grade": 1,
+    "subject_id_id": 26
+  },
+  {
+    "id": 289,
+    "sentence_text": "집단 활동 중 모든 구성원을 존중하고 포용하려는 태도가 모범적임.",
+    "sentence_grade": 1,
+    "subject_id_id": 26
+  },
+  {
+    "id": 290,
+    "sentence_text": "토론 상황에서 자신과 다른 의견을 열린 마음으로 경청하고 수용하는 모습을 보임.",
+    "sentence_grade": 2,
+    "subject_id_id": 26
+  },
+  {
+    "id": 291,
+    "sentence_text": "팀 프로젝트 진행 중 다양한 배경의 팀원들을 존중하고 협력하려는 태도가 좋음.",
+    "sentence_grade": 2,
+    "subject_id_id": 26
+  },
+  {
+    "id": 292,
+    "sentence_text": "학급 행사 참여 시 서로 다른 생각을 가진 친구들을 긍정적으로 받아들임.",
+    "sentence_grade": 2,
+    "subject_id_id": 26
+  },
+  {
+    "id": 293,
+    "sentence_text": "다양한 의견에 대해 개방적인 자세를 유지하는 모습이 드러남.",
+    "sentence_grade": 2,
+    "subject_id_id": 26
+  },
+  {
+    "id": 294,
+    "sentence_text": "소수 의견에도 관심을 기울이고 존중하려는 노력을 기울임.",
+    "sentence_grade": 2,
+    "subject_id_id": 26
+  },
+  {
+    "id": 295,
+    "sentence_text": "의견 나누기 상황에서 자신과 다른 주장도 받아들이려는 태도를 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 26
+  },
+  {
+    "id": 296,
+    "sentence_text": "조별활동 중 여러 배경의 친구들과 어울려 지내는 모습이 드러남.",
+    "sentence_grade": 3,
+    "subject_id_id": 26
+  },
+  {
+    "id": 297,
+    "sentence_text": "학급 토의에서 다양한 관점을 인정하고 수용하는 모습을 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 26
+  },
+  {
+    "id": 298,
+    "sentence_text": "타인의 차이를 존중하려는 기본적인 태도를 갖추고 있음.",
+    "sentence_grade": 3,
+    "subject_id_id": 26
+  },
+  {
+    "id": 299,
+    "sentence_text": "학교생활 중 포용적인 태도로 타인을 대하는 모습이 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 26
+  },
+  {
+    "id": 300,
+    "sentence_text": "여러 관점의 의견을 받아들이려 노력하나 때론 자신의 생각에 머물러 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 26
+  },
+  {
+    "id": 301,
+    "sentence_text": "조활동에서 다양한 친구들과 함께하려 하나 완전히 포용하지 못하는 경향이 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 26
+  },
+  {
+    "id": 302,
+    "sentence_text": "학급 활동 중 소수 의견에 관심을 기울이려는 노력이 있으나 적극성이 부족해 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 26
+  },
+  {
+    "id": 303,
+    "sentence_text": "타인의 차이를 인정하려는 마음은 있으나 그것을 충분히 수용하지 못하고 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 26
+  },
+  {
+    "id": 304,
+    "sentence_text": "더욱 열린 자세를 취한다면 더욱 포용적인 학급 환경 조성에 기여하리라 봄.",
+    "sentence_grade": 4,
+    "subject_id_id": 26
+  },
+  {
+    "id": 305,
+    "sentence_text": "다양한 의견에 대해 관심을 가지고 경청하려는 모습이 있으므로, 더욱 개방적인 태도를 지속한다면 성장하리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 26
+  },
+  {
+    "id": 306,
+    "sentence_text": "조활동 참여 중 타인을 받아들이려는 의지를 보이고 있으니, 포용적 자세를 더욱 발전시킨다면 좋은 학급 문화를 만드는 데 기여하리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 26
+  },
+  {
+    "id": 307,
+    "sentence_text": "학급 토의에서 서로 다른 생각을 존중하려는 노력을 기울이고 있으므로, 더욱 능동적으로 실천한다면 훌륭한 성장을 이루리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 26
+  },
+  {
+    "id": 308,
+    "sentence_text": "소수 의견도 귀 기울여 듣으려는 마음가짐이 있으므로, 더욱 진정한 포용의 자세를 가진다면 뛰어난 인성 발전을 이루리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 26
+  },
+  {
+    "id": 309,
+    "sentence_text": "다양성을 존중하려는 의식을 가지고 있으니, 그것을 더욱 적극적으로 표현한다면 포용적이고 따뜻한 공동체 문화를 선도하는 학생으로 성장하리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 26
+  },
+  {
+    "id": 310,
+    "sentence_text": "어려운 과제를 만났을 때도 포기하지 않고 끝까지 해결하려는 강한 의지를 보이며 뛰어난 인내심을 드러냄.",
+    "sentence_grade": 1,
+    "subject_id_id": 27
+  },
+  {
+    "id": 311,
+    "sentence_text": "반복적인 연습이 필요한 활동에서 꾸준히 노력을 지속하는 모습이 두드러져 놀라운 성장을 이룸.",
+    "sentence_grade": 1,
+    "subject_id_id": 27
+  },
+  {
+    "id": 312,
+    "sentence_text": "실패를 경험한 후에도 다시 도전하여 성공에 이르는 과정에서 우수한 끈기를 발휘함.",
+    "sentence_grade": 1,
+    "subject_id_id": 27
+  },
+  {
+    "id": 313,
+    "sentence_text": "장시간의 프로젝트 진행 중 중간에 흔들리지 않고 처음의 의욕을 끝까지 유지하는 모습이 인상 깊음.",
+    "sentence_grade": 1,
+    "subject_id_id": 27
+  },
+  {
+    "id": 314,
+    "sentence_text": "어려움에 직면했을 때도 긍정적인 태도로 문제를 풀어가려는 뛰어난 인내력을 보임.",
+    "sentence_grade": 1,
+    "subject_id_id": 27
+  },
+  {
+    "id": 315,
+    "sentence_text": "어려운 과제를 만났을 때 포기하지 않고 계속 노력하려는 의지를 보여 좋은 결과를 냄.",
+    "sentence_grade": 2,
+    "subject_id_id": 27
+  },
+  {
+    "id": 316,
+    "sentence_text": "반복이 필요한 학습 상황에서 꾸준하게 노력을 기울이는 모습이 좋음.",
+    "sentence_grade": 2,
+    "subject_id_id": 27
+  },
+  {
+    "id": 317,
+    "sentence_text": "실패 후에도 다시 시도하여 극복하려는 긍정적인 태도를 유지함.",
+    "sentence_grade": 2,
+    "subject_id_id": 27
+  },
+  {
+    "id": 318,
+    "sentence_text": "과제 수행 중 도중에 포기하지 않고 완성까지 힘을 내는 모습을 보임.",
+    "sentence_grade": 2,
+    "subject_id_id": 27
+  },
+  {
+    "id": 319,
+    "sentence_text": "어려운 상황에서도 의연하게 끈기 있게 대처하려는 노력이 보기 좋음.",
+    "sentence_grade": 2,
+    "subject_id_id": 27
+  },
+  {
+    "id": 320,
+    "sentence_text": "어려운 과제를 만났을 때 기본적으로 포기하지 않고 계속 노력하는 모습을 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 27
+  },
+  {
+    "id": 321,
+    "sentence_text": "반복적인 활동이 필요할 때 성실하게 참여하는 모습이 드러남.",
+    "sentence_grade": 3,
+    "subject_id_id": 27
+  },
+  {
+    "id": 322,
+    "sentence_text": "실패를 경험한 후 다시 도전하려는 태도를 취하는 모습이 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 27
+  },
+  {
+    "id": 323,
+    "sentence_text": "긴 프로젝트 진행 중 어느 정도 의욕을 유지하는 모습이 드러남.",
+    "sentence_grade": 3,
+    "subject_id_id": 27
+  },
+  {
+    "id": 324,
+    "sentence_text": "어려움 속에서도 기본적인 인내심을 발휘하는 모습을 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 27
+  },
+  {
+    "id": 325,
+    "sentence_text": "어려운 상황에서 포기하려는 생각이 드나 다시 노력하려는 의지를 보이고 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 27
+  },
+  {
+    "id": 326,
+    "sentence_text": "반복이 필요한 활동에 참여하나 때론 의욕이 떨어지는 경향이 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 27
+  },
+  {
+    "id": 327,
+    "sentence_text": "실패 경험 후 재도전하는 데 다소 시간이 걸리나 끝내 도전하려는 자세를 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 27
+  },
+  {
+    "id": 328,
+    "sentence_text": "장시간 필요한 활동에서 중간쯤 지칠 수 있으나 끝까지 마무리하려는 노력을 기울임.",
+    "sentence_grade": 4,
+    "subject_id_id": 27
+  },
+  {
+    "id": 329,
+    "sentence_text": "어려움에 당당하게 맞서지는 못하나 계속 참고 견디려는 모습이 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 27
+  },
+  {
+    "id": 330,
+    "sentence_text": "어려운 과제를 만났을 때 힘들어하고 있으나, 더욱 긍정적인 마음으로 도전한다면 뛰어난 성장을 이루리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 27
+  },
+  {
+    "id": 331,
+    "sentence_text": "반복적인 학습이 필요한 상황에서 힘들어하고 있으나, 조금씩 꾸준히 노력한다면 성과를 거두리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 27
+  },
+  {
+    "id": 332,
+    "sentence_text": "실패를 겪은 후 낙심하는 경향이 있으나, 다시 일어날 용기를 가진다면 극복할 수 있을 것으로 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 27
+  },
+  {
+    "id": 333,
+    "sentence_text": "장시간의 프로젝트에서 지루함을 느끼고 있으나, 목표를 상기하고 한 발씩 나아간다면 충분히 해낼 수 있음.",
+    "sentence_grade": 5,
+    "subject_id_id": 27
+  },
+  {
+    "id": 334,
+    "sentence_text": "어려움 속에서 힘들어하고 있으나, 작은 성취를 스스로 인정하고 격려한다면 더욱 강한 인내력을 키워나가리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 27
+  },
+  {
+    "id": 335,
+    "sentence_text": "약속한 시간에 항상 정확하게 나타나며 뛰어난 신뢰성을 보이는 모습이 두드러짐.",
+    "sentence_grade": 1,
+    "subject_id_id": 28
+  },
+  {
+    "id": 336,
+    "sentence_text": "조별활동에서 맡은 역할에 대한 책무를 철저하게 이행하여 팀의 신뢰를 얻음.",
+    "sentence_grade": 1,
+    "subject_id_id": 28
+  },
+  {
+    "id": 337,
+    "sentence_text": "선생님과 한 약속을 끝까지 성실하게 지키는 태도가 인상 깊음.",
+    "sentence_grade": 1,
+    "subject_id_id": 28
+  },
+  {
+    "id": 338,
+    "sentence_text": "친구들과의 약속을 어김없이 지켜 신뢰할 수 있는 학생으로 인정받음.",
+    "sentence_grade": 1,
+    "subject_id_id": 28
+  },
+  {
+    "id": 339,
+    "sentence_text": "자신의 말과 행동이 항상 일관되게 유지되어 우수한 성실성을 드러냄.",
+    "sentence_grade": 1,
+    "subject_id_id": 28
+  },
+  {
+    "id": 340,
+    "sentence_text": "정해진 시간을 잘 지키고 약속을 이행하려는 신뢰할 수 있는 태도를 보임.",
+    "sentence_grade": 2,
+    "subject_id_id": 28
+  },
+  {
+    "id": 341,
+    "sentence_text": "팀 프로젝트에서 담당한 책임을 성실하게 수행하여 좋은 신뢰도를 형성함.",
+    "sentence_grade": 2,
+    "subject_id_id": 28
+  },
+  {
+    "id": 342,
+    "sentence_text": "선생님의 지시사항을 적극적으로 실천하려는 성실한 모습이 좋음.",
+    "sentence_grade": 2,
+    "subject_id_id": 28
+  },
+  {
+    "id": 343,
+    "sentence_text": "학급 행사에 참여할 때 약속한 역할을 충실히 해내는 모습을 보임.",
+    "sentence_grade": 2,
+    "subject_id_id": 28
+  },
+  {
+    "id": 344,
+    "sentence_text": "일상생활에서 자신이 한 말을 지키려는 노력을 꾸준히 기울임.",
+    "sentence_grade": 2,
+    "subject_id_id": 28
+  },
+  {
+    "id": 345,
+    "sentence_text": "대부분의 상황에서 약속한 시간을 지키고 성실하게 행동하는 모습을 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 28
+  },
+  {
+    "id": 346,
+    "sentence_text": "조별활동 중 자신의 역할에 대해 책임감을 가지고 수행하는 태도를 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 28
+  },
+  {
+    "id": 347,
+    "sentence_text": "학급의 규칙과 약속을 기본적으로 지키려는 모습이 드러남.",
+    "sentence_grade": 3,
+    "subject_id_id": 28
+  },
+  {
+    "id": 348,
+    "sentence_text": "친구들과의 약속을 대체로 지키려는 성실한 태도를 갖추고 있음.",
+    "sentence_grade": 3,
+    "subject_id_id": 28
+  },
+  {
+    "id": 349,
+    "sentence_text": "자신의 말에 책임을 지는 모습을 일반적으로 보여줌.",
+    "sentence_grade": 3,
+    "subject_id_id": 28
+  },
+  {
+    "id": 350,
+    "sentence_text": "대부분의 약속을 지키려 노력하나 가끔 시간을 놓치거나 어기는 경향이 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 28
+  },
+  {
+    "id": 351,
+    "sentence_text": "팀활동에서 주어진 책임을 완수하려 하나 때론 미흡한 모습을 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 28
+  },
+  {
+    "id": 352,
+    "sentence_text": "선생님의 지시를 따르려는 의지는 있으나 일관되지 않은 태도를 보이기도 함.",
+    "sentence_grade": 4,
+    "subject_id_id": 28
+  },
+  {
+    "id": 353,
+    "sentence_text": "친구들과의 약속을 대체로 지키려 하나 때론 성실하지 못한 모습이 드러남.",
+    "sentence_grade": 4,
+    "subject_id_id": 28
+  },
+  {
+    "id": 354,
+    "sentence_text": "자신의 말과 행동이 일치하려는 노력을 기울이고 있으나 개선의 여지가 있음.",
+    "sentence_grade": 4,
+    "subject_id_id": 28
+  },
+  {
+    "id": 355,
+    "sentence_text": "약속을 지키려는 의지를 가지고 있으므로, 더욱 철저하게 시간을 관리한다면 성장하리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 28
+  },
+  {
+    "id": 356,
+    "sentence_text": "팀 활동에서 책임감을 느끼고 있으니, 더욱 책무에 충실한다면 신뢰도를 높일 수 있음.",
+    "sentence_grade": 5,
+    "subject_id_id": 28
+  },
+  {
+    "id": 357,
+    "sentence_text": "선생님의 말씀을 경청하고 실천하려는 마음이 있으므로, 더욱 꾸준히 따른다면 우수한 발전을 이루리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 28
+  },
+  {
+    "id": 358,
+    "sentence_text": "친구와의 약속을 소중히 여기는 자세가 보이므로, 더욱 성실하게 지킨다면 깊은 신뢰 관계를 형성하리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 28
+  },
+  {
+    "id": 359,
+    "sentence_text": "자신의 말에 책임을 지려는 노력이 있으니, 더욱 일관되고 성실한 행동을 취한다면 훌륭한 인격 발전을 이루리라 봄.",
+    "sentence_grade": 5,
+    "subject_id_id": 28
+  },
+  {
+    "id": 360,
+    "sentence_text": "다양한 상황에서 타인의 말을 진심 어린 마음으로 경청하며 상대방의 감정을 섬세하게 이해하는 능력이 뛰어남.",
+    "sentence_grade": 1,
+    "subject_id_id": 29
+  },
+  {
+    "id": 361,
+    "sentence_text": "수업 토론 시간에 친구의 의견에 주의 깊게 귀 기울이고 감정이입적으로 반응하는 모습이 인상 깊음.",
+    "sentence_grade": 1,
+    "subject_id_id": 29
+  },
+  {
+    "id": 362,
+    "sentence_text": "모둠 활동 중에 각 팀원의 생각을 존중하며 적극적으로 공감하는 태도가 우수함.",
+    "sentence_grade": 1,
+    "subject_id_id": 29
+  },
+  {
+    "id": 363,
+    "sentence_text": "갈등 상황에서 상대방의 입장을 성실하게 이해하려 노력하며 감정적 공감 능력이 뛰어남.",
+    "sentence_grade": 1,
+    "subject_id_id": 29
+  },
+  {
+    "id": 364,
+    "sentence_text": "발표 활동에서 발표자의 메시지를 깊이 있게 경청하고 의미 있는 피드백을 제공함.",
+    "sentence_grade": 1,
+    "subject_id_id": 29
+  },
+  {
+    "id": 365,
+    "sentence_text": "일상적인 대화에서 상대방의 말을 귀 기울여 듣고 감정을 잘 이해하는 모습이 두드러짐.",
+    "sentence_grade": 2,
+    "subject_id_id": 29
+  },
+  {
+    "id": 366,
+    "sentence_text": "수업 중 질의응답 시간에 친구들의 의견을 성실하게 경청하며 공감적 태도를 잘 보임.",
+    "sentence_grade": 2,
+    "subject_id_id": 29
+  },
+  {
+    "id": 367,
+    "sentence_text": "모둠별 협력 활동에서 팀원들의 생각에 진심을 담아 공감하는 노력이 인상 깊음.",
+    "sentence_grade": 2,
+    "subject_id_id": 29
+  },
+  {
+    "id": 368,
+    "sentence_text": "문학 수업 토론에서 등장인물의 감정을 이해하려 노력하며 감정이입 능력을 잘 드러냄.",
+    "sentence_grade": 2,
+    "subject_id_id": 29
+  },
+  {
+    "id": 369,
+    "sentence_text": "동료 피드백 활동에서 상대방의 입장을 고려한 따뜻한 언어로 소통하는 모습이 돋보임.",
+    "sentence_grade": 2,
+    "subject_id_id": 29
+  },
+  {
+    "id": 370,
+    "sentence_text": "학급 회의에서 친구들의 의견을 경청하고 기본적인 공감 태도를 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 29
+  },
+  {
+    "id": 371,
+    "sentence_text": "짝 활동 중에 상대방의 생각을 듣고 이해하려는 노력을 나타냄.",
+    "sentence_grade": 3,
+    "subject_id_id": 29
+  },
+  {
+    "id": 372,
+    "sentence_text": "토론 활동에서 타인의 주장을 경청하고 감정을 인식하는 모습을 드러냄.",
+    "sentence_grade": 3,
+    "subject_id_id": 29
+  },
+  {
+    "id": 373,
+    "sentence_text": "협력 학습 과제에서 팀원들의 의견을 존중하고 공감하려는 태도를 갖춤.",
+    "sentence_grade": 3,
+    "subject_id_id": 29
+  },
+  {
+    "id": 374,
+    "sentence_text": "개인 면담 시간에 상대방의 말을 주의 깊게 들으려는 자세를 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 29
+  },
+  {
+    "id": 375,
+    "sentence_text": "수업 중 작은 그룹 토론에서 친구들의 말을 대체로 들으려 노력하며 공감의 태도를 나타냄.",
+    "sentence_grade": 4,
+    "subject_id_id": 29
+  },
+  {
+    "id": 376,
+    "sentence_text": "감정 나누기 활동에서 상대방의 기분을 이해하려 애쓰는 성의 있는 태도를 드러냄.",
+    "sentence_grade": 4,
+    "subject_id_id": 29
+  },
+  {
+    "id": 377,
+    "sentence_text": "협동 게임에서 팀원의 의견에 귀를 기울이려는 노력이 두드러짐.",
+    "sentence_grade": 4,
+    "subject_id_id": 29
+  },
+  {
+    "id": 378,
+    "sentence_text": "상담 시간에 이야기를 끝까지 들으려고 노력하는 성실한 자세를 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 29
+  },
+  {
+    "id": 379,
+    "sentence_text": "개인 발표 이후 질문에 답하는 과정에서 상대방의 생각을 존중하려 노력함.",
+    "sentence_grade": 4,
+    "subject_id_id": 29
+  },
+  {
+    "id": 380,
+    "sentence_text": "조용한 성품이지만 상황에 따라 친구의 이야기에 귀를 기울이려 노력하는 성의가 느껴짐.",
+    "sentence_grade": 5,
+    "subject_id_id": 29
+  },
+  {
+    "id": 381,
+    "sentence_text": "원탁 토론에서 말수는 적지만 다른 사람의 감정을 존중하려는 따뜻한 마음을 보임.",
+    "sentence_grade": 5,
+    "subject_id_id": 29
+  },
+  {
+    "id": 382,
+    "sentence_text": "모둠 활동 중 주도적이지는 않지만 팀원들의 의견을 소중히 받아들이려는 태도를 드러냄.",
+    "sentence_grade": 5,
+    "subject_id_id": 29
+  },
+  {
+    "id": 383,
+    "sentence_text": "개별 면담에서는 어색함이 있지만 상대방의 입장을 알아주려는 진심이 담김.",
+    "sentence_grade": 5,
+    "subject_id_id": 29
+  },
+  {
+    "id": 384,
+    "sentence_text": "또래 관계에서 조용하지만 친구의 어려움을 함께 나누고 위로하려는 성실함을 보임.",
+    "sentence_grade": 5,
+    "subject_id_id": 29
+  },
+  {
+    "id": 385,
+    "sentence_text": "수업 중 내용과 관련하여 논리적이고 창의적인 질문을 적극적으로 제기함.",
+    "sentence_grade": 1,
+    "subject_id_id": 30
+  },
+  {
+    "id": 386,
+    "sentence_text": "제재글을 읽은 후 글의 주제와 의도를 탐색하는 깊이 있는 질문을 창출함.",
+    "sentence_grade": 1,
+    "subject_id_id": 30
+  },
+  {
+    "id": 387,
+    "sentence_text": "토론 활동에서 상대방의 주장에 대해 비판적 관점에서 유의미한 질문을 던짐.",
+    "sentence_grade": 1,
+    "subject_id_id": 30
+  },
+  {
+    "id": 388,
+    "sentence_text": "글 분석 활동에서 표현 방식, 문맥, 숨겨진 의미를 파악하는 우수한 질문을 만듦.",
+    "sentence_grade": 1,
+    "subject_id_id": 30
+  },
+  {
+    "id": 389,
+    "sentence_text": "독서 시간에 작품의 구조, 인물 심리, 사건의 인과관계에 관한 탐구적 질문이 두드러짐.",
+    "sentence_grade": 1,
+    "subject_id_id": 30
+  },
+  {
+    "id": 390,
+    "sentence_text": "수업 진행 과정에서 핵심 개념에 대한 의문을 성실하게 표현하며 적극적으로 질문함.",
+    "sentence_grade": 2,
+    "subject_id_id": 30
+  },
+  {
+    "id": 391,
+    "sentence_text": "제재글을 분석하는 활동에서 글의 구성과 내용을 이해한 수준 높은 질문을 제시함.",
+    "sentence_grade": 2,
+    "subject_id_id": 30
+  },
+  {
+    "id": 392,
+    "sentence_text": "모둠 토론에서 동료들의 의견에 대해 깊이 있게 묻고 탐색하는 인상 깊은 질문을 던짐.",
+    "sentence_grade": 2,
+    "subject_id_id": 30
+  },
+  {
+    "id": 393,
+    "sentence_text": "읽기 활동에서 등장인물의 동기, 배경, 감정변화를 탐색하는 의미 있는 질문을 만듦.",
+    "sentence_grade": 2,
+    "subject_id_id": 30
+  },
+  {
+    "id": 394,
+    "sentence_text": "학습 자료를 대할 때 표면적 이해를 넘어 원인과 결과를 묻는 후속 질문을 성실하게 제기함.",
+    "sentence_grade": 2,
+    "subject_id_id": 30
+  },
+  {
+    "id": 395,
+    "sentence_text": "수업 중 학습 내용에 대한 이해를 확인하는 질문을 나타냄.",
+    "sentence_grade": 3,
+    "subject_id_id": 30
+  },
+  {
+    "id": 396,
+    "sentence_text": "제재글을 읽고 주요 내용과 관련된 기본적인 수준의 질문을 만듦.",
+    "sentence_grade": 3,
+    "subject_id_id": 30
+  },
+  {
+    "id": 397,
+    "sentence_text": "토론 활동에서 주어진 주제에 대해 궁금한 점을 질문하는 태도를 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 30
+  },
+  {
+    "id": 398,
+    "sentence_text": "글읽기 과정에서 단어의 의미, 사건의 순서 등에 관한 질문을 제기함.",
+    "sentence_grade": 3,
+    "subject_id_id": 30
+  },
+  {
+    "id": 399,
+    "sentence_text": "학습 과제를 수행하면서 필요한 정보를 묻고 확인하는 질문을 갖춤.",
+    "sentence_grade": 3,
+    "subject_id_id": 30
+  },
+  {
+    "id": 400,
+    "sentence_text": "수업 시간에 이해가 안 되는 부분을 묻으려고 노력하며 질문하려는 자세를 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 30
+  },
+  {
+    "id": 401,
+    "sentence_text": "제재글 분석 활동에서 질문을 만들려고 애쓰는 성의 있는 태도를 드러냄.",
+    "sentence_grade": 4,
+    "subject_id_id": 30
+  },
+  {
+    "id": 402,
+    "sentence_text": "토론 중에 상대방의 주장이 무엇인지 확인하려는 의도의 질문을 하려 노력함.",
+    "sentence_grade": 4,
+    "subject_id_id": 30
+  },
+  {
+    "id": 403,
+    "sentence_text": "독서 활동에서 이해가 모호한 부분에 대해 묻고자 하는 노력이 두드러짐.",
+    "sentence_grade": 4,
+    "subject_id_id": 30
+  },
+  {
+    "id": 404,
+    "sentence_text": "학습 과정에서 자신의 생각을 정리하며 질문을 이어가려는 성실함을 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 30
+  },
+  {
+    "id": 405,
+    "sentence_text": "수업이 진행되는 가운데 필요한 순간에 조용하지만 질문을 시도하는 모습을 보임.",
+    "sentence_grade": 5,
+    "subject_id_id": 30
+  },
+  {
+    "id": 406,
+    "sentence_text": "제재글을 읽은 후 충분하지는 않지만 궁금한 점을 표현하려는 노력이 느껴짐.",
+    "sentence_grade": 5,
+    "subject_id_id": 30
+  },
+  {
+    "id": 407,
+    "sentence_text": "토론 상황에서 주저하면서도 상대방의 의견에 대해 물어보고자 하는 태도를 드러냄.",
+    "sentence_grade": 5,
+    "subject_id_id": 30
+  },
+  {
+    "id": 408,
+    "sentence_text": "글읽기 활동에서는 많은 질문을 하지 않지만 무엇인가를 알아보고자 하는 진심이 담김.",
+    "sentence_grade": 5,
+    "subject_id_id": 30
+  },
+  {
+    "id": 409,
+    "sentence_text": "학습 자료를 접할 때 즉각적이지는 않지만 의문을 표현하고 이해하려는 성실한 노력을 보임.",
+    "sentence_grade": 5,
+    "subject_id_id": 30
+  },
+  {
+    "id": 410,
+    "sentence_text": "탐구 과정에서 핵심 개념을 깊이 있게 탐구하며 그 의미와 적용 범위를 명확히 파악함.",
+    "sentence_grade": 1,
+    "subject_id_id": 31
+  },
+  {
+    "id": 411,
+    "sentence_text": "학습 활동에서 기본 개념을 바탕으로 다양한 사례를 찾아내고 창의적으로 확장하는 능력이 뛰어남.",
+    "sentence_grade": 1,
+    "subject_id_id": 31
+  },
+  {
+    "id": 412,
+    "sentence_text": "사례 분석 활동에서 구체적 사례의 공통점을 발견하여 보편적 원리로 일반화하는 우수한 사고 능력을 보임.",
+    "sentence_grade": 1,
+    "subject_id_id": 31
+  },
+  {
+    "id": 413,
+    "sentence_text": "개념 학습 후 이전에 배운 내용과 새로운 개념을 연결하며 통합적 사고를 전개함.",
+    "sentence_grade": 1,
+    "subject_id_id": 31
+  },
+  {
+    "id": 414,
+    "sentence_text": "탐구 과제에서 핵심 개념을 중심으로 체계적인 사고 전략을 세워 문제 해결에 적용함.",
+    "sentence_grade": 1,
+    "subject_id_id": 31
+  },
+  {
+    "id": 415,
+    "sentence_text": "학습 주제의 중심 개념을 의미 있게 탐구하며 그 특성과 범주를 성실하게 파악함.",
+    "sentence_grade": 2,
+    "subject_id_id": 31
+  },
+  {
+    "id": 416,
+    "sentence_text": "사례 분석 활동에서 주어진 예시들을 분석하여 그것을 다양한 상황에 확장하려는 노력이 인상 깊음.",
+    "sentence_grade": 2,
+    "subject_id_id": 31
+  },
+  {
+    "id": 417,
+    "sentence_text": "여러 사례의 공통 특징을 찾아 일반적 원리를 도출하는 과정에서 논리적 사고가 두드러짐.",
+    "sentence_grade": 2,
+    "subject_id_id": 31
+  },
+  {
+    "id": 418,
+    "sentence_text": "개념 학습 시 이전 학습과의 관계를 생각하며 지식을 확장하고 연결하는 태도가 우수함.",
+    "sentence_grade": 2,
+    "subject_id_id": 31
+  },
+  {
+    "id": 419,
+    "sentence_text": "문제 해결 상황에서 습득한 개념을 바탕으로 단계적 사고 전략을 수립하여 적용함.",
+    "sentence_grade": 2,
+    "subject_id_id": 31
+  },
+  {
+    "id": 420,
+    "sentence_text": "학습 주제의 기본 개념을 파악하려고 노력하며 그 의미를 이해하는 모습을 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 31
+  },
+  {
+    "id": 421,
+    "sentence_text": "사례를 통해 개념을 구체화하고 여러 상황에 적용해 보려는 태도를 갖춤.",
+    "sentence_grade": 3,
+    "subject_id_id": 31
+  },
+  {
+    "id": 422,
+    "sentence_text": "주어진 사례들을 비교하면서 공통점을 찾고 일반화하려는 시도를 나타냄.",
+    "sentence_grade": 3,
+    "subject_id_id": 31
+  },
+  {
+    "id": 423,
+    "sentence_text": "새로운 개념과 기존 지식을 연결하려는 노력을 보임.",
+    "sentence_grade": 3,
+    "subject_id_id": 31
+  },
+  {
+    "id": 424,
+    "sentence_text": "학습 과제에서 개념을 토대로 자신의 생각을 정리하며 사고 과정을 전개함.",
+    "sentence_grade": 3,
+    "subject_id_id": 31
+  },
+  {
+    "id": 425,
+    "sentence_text": "학습 내용의 주요 개념을 이해하려고 노력하며 탐구하는 태도를 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 31
+  },
+  {
+    "id": 426,
+    "sentence_text": "제시된 사례들을 살피면서 개념과 연결지으려는 성의 있는 노력이 두드러짐.",
+    "sentence_grade": 4,
+    "subject_id_id": 31
+  },
+  {
+    "id": 427,
+    "sentence_text": "여러 예시를 검토하는 과정에서 패턴을 찾고 일반화하려고 애씀.",
+    "sentence_grade": 4,
+    "subject_id_id": 31
+  },
+  {
+    "id": 428,
+    "sentence_text": "이전 학습 내용과 새로운 개념의 관계를 생각해 보려는 노력을 드러냄.",
+    "sentence_grade": 4,
+    "subject_id_id": 31
+  },
+  {
+    "id": 429,
+    "sentence_text": "과제 해결 시 배운 개념을 떠올리고 문제에 접근해 보려는 성실한 자세를 보임.",
+    "sentence_grade": 4,
+    "subject_id_id": 31
+  },
+  {
+    "id": 430,
+    "sentence_text": "개념 이해에 어려움이 있을 수 있지만 학습 주제의 의미를 파악하려는 성실한 노력이 느껴짐.",
+    "sentence_grade": 5,
+    "subject_id_id": 31
+  },
+  {
+    "id": 431,
+    "sentence_text": "구체적 사례들을 살펴보면서 개념과 예시를 이어보려는 진심이 담김.",
+    "sentence_grade": 5,
+    "subject_id_id": 31
+  },
+  {
+    "id": 432,
+    "sentence_text": "다양한 사례를 대할 때 그들 사이의 유사점을 찾고자 노력하는 태도를 드러냄.",
+    "sentence_grade": 5,
+    "subject_id_id": 31
+  },
+  {
+    "id": 433,
+    "sentence_text": "현재 배우는 내용과 이전 지식을 생각해 보면서 이해를 넓히려는 노력을 보임.",
+    "sentence_grade": 5,
+    "subject_id_id": 31
+  },
+  {
+    "id": 434,
+    "sentence_text": "문제 상황을 마주할 때 학습한 개념을 떠올리고 적용해 보고자 하는 성실한 노력을 드러냄.",
+    "sentence_grade": 5,
+    "subject_id_id": 31
+  }
+]

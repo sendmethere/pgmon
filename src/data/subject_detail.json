@@ -190,5 +190,47 @@
     "subject_no": 16,
     "subject_desc": "0",
     "category_id": 3
+  },
+  {
+    "id": 25,
+    "subject_name": "집중/책임완수",
+    "subject_name_short": "집중",
+    "category_id": 1
+  },
+  {
+    "id": 26,
+    "subject_name": "수용/포용성",
+    "subject_name_short": "수용/포용성",
+    "category_id": 1
+  },
+  {
+    "id": 27,
+    "subject_name": "인내/끈기",
+    "subject_name_short": "인내/끈기",
+    "category_id": 1
+  },
+  {
+    "id": 28,
+    "subject_name": "성실성/약속",
+    "subject_name_short": "성실성/약속",
+    "category_id": 1
+  },
+  {
+    "id": 29,
+    "subject_name": "경청/공감",
+    "subject_name_short": "경청/공감",
+    "category_id": 1
+  },
+  {
+    "id": 30,
+    "subject_name": "질문하기",
+    "subject_name_short": "질문하기",
+    "category_id": 2
+  },
+  {
+    "id": 31,
+    "subject_name": "개념기반탐구",
+    "subject_name_short": "개념기반탐구",
+    "category_id": 3
   }
 ]

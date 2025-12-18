@@ -121,8 +121,7 @@ const md5 = (string) => {
   return hex(md51(string));
 };
 
-// Admin 비밀번호 해시 (도요도요새는운다)
-const ADMIN_PASSWORD_HASH = '873248adb154ab0cb552af5de9b5a8e8';
+const ADMIN_PASSWORD_HASH = '26548f39542e4d7aa15d93c73268f7d8';
 
 const AdminPanel = () => {
   // Admin 인증 상태
