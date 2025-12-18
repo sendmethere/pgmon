@@ -86,7 +86,7 @@ const EvaluationTable = () => {
                 {selectedSubjects.map((subject) => (
                   <th
                     key={subject.id}
-                    className="border border-gray-300 px-2 py-2 text-center font-medium text-gray-900 w-16"
+                    className="border border-gray-300 px-2 py-2 text-center text-xs font-medium text-gray-900 w-16"
                     title={subject.subject_name}
                   >
                     {subject.subject_name_short}
