@@ -47,7 +47,7 @@ const ResultsDisplay = () => {
           className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
         >
           <Download className="h-4 w-4" />
-          <span>CSV로 저장</span>
+          <span>Excel로 저장</span>
         </button>
       </div>
       

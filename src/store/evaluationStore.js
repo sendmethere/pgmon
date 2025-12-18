@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { devtools, persist } from 'zustand/middleware';
+import * as XLSX from 'xlsx';
 import categoryData from '../data/category.json';
 import subjectDetailData from '../data/subject_detail.json';
 import behaviorSentenceData from '../data/behavior_sentence.json';
@@ -166,28 +167,32 @@ export const useEvaluationStore = create(
       exportToExcel: () => {
         const { evaluationResults } = get();
         
-        // Create CSV content
-        const csvContent = [
+        // 데이터 준비
+        const data = [
           ['번호', '이름', '평가 문장'],
           ...evaluationResults.map((result, index) => [
-            (index + 1).toString(),
+            index + 1,
             result.studentName,
             result.sentence
           ])
-        ].map(row => row.join(',')).join('\n');
+        ];
         
-        // Download file
-        const blob = new Blob(['\uFEFF' + csvContent], { type: 'text/csv;charset=utf-8;' });
-        const link = document.createElement('a');
-        if (link.download !== undefined) {
-          const url = URL.createObjectURL(blob);
-          link.setAttribute('href', url);
-          link.setAttribute('download', '평가몬-행발-결과.csv');
-          link.style.visibility = 'hidden';
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-        }
+        // 워크시트 생성
+        const ws = XLSX.utils.aoa_to_sheet(data);
+        
+        // 열 너비 설정
+        ws['!cols'] = [
+          { wch: 6 },   // 번호
+          { wch: 12 },  // 이름
+          { wch: 100 }  // 평가 문장
+        ];
+        
+        // 워크북 생성
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, '행발 평가');
+        
+        // 파일 다운로드
+        XLSX.writeFile(wb, '평가몬-행발-결과.xlsx');
       }
       }),
       {
