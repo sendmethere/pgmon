@@ -579,7 +579,7 @@ const AdminPanel = () => {
           
           <form onSubmit={handleAdminLogin}>
             <input
-              type="password"
+              type="text"
               value={adminPassword}
               onChange={(e) => setAdminPassword(e.target.value)}
               placeholder="비밀번호"
