@@ -164,6 +164,16 @@ export const useEvaluationStore = create(
         });
       },
       
+      updateResultSentence: (studentId, newSentence) => {
+        set((state) => ({
+          evaluationResults: state.evaluationResults.map(result =>
+            result.studentId === studentId
+              ? { ...result, sentence: newSentence }
+              : result
+          )
+        }));
+      },
+      
       exportToExcel: () => {
         const { evaluationResults } = get();
         

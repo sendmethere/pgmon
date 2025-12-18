@@ -3,7 +3,7 @@ import { FileText, Download, Copy, Check } from 'lucide-react';
 import { useEvaluationStore } from '../store/evaluationStore';
 
 const ResultsDisplay = () => {
-  const { evaluationResults, exportToExcel } = useEvaluationStore();
+  const { evaluationResults, exportToExcel, updateResultSentence } = useEvaluationStore();
   const [copiedIndex, setCopiedIndex] = useState(null);
   
   const handleCopy = async (text, index) => {
@@ -51,51 +51,47 @@ const ResultsDisplay = () => {
         </button>
       </div>
       
-      <div className="space-y-4">
+      <div className="divide-y divide-gray-200">
         {evaluationResults.map((result, index) => (
           <div
             key={result.studentId}
-            className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow"
+            className="flex items-start gap-3 py-3 hover:bg-gray-50 transition-colors"
           >
-            <div className="flex items-start justify-between mb-3">
-              <div className="flex items-center space-x-3">
-                <div className="flex items-center justify-center w-8 h-8 bg-gray-100 text-gray-600 rounded-full text-sm font-medium">
-                  {index + 1}
-                </div>
-                <div>
-                  <h3 className="font-medium text-gray-900">{result.studentName}</h3>
-                  <div className="flex items-center space-x-2 mt-1">
-                    <FileText className="h-4 w-4 text-gray-400" />
-                    <span className="text-sm text-gray-500">평가 문장</span>
-                  </div>
-                </div>
-              </div>
-              
-              <button
-                onClick={() => handleCopy(result.sentence, index)}
-                className="flex items-center space-x-1 px-3 py-1 text-sm bg-gray-100 text-gray-600 rounded hover:bg-gray-200 transition-colors"
-              >
-                {copiedIndex === index ? (
-                  <>
-                    <Check className="h-4 w-4 text-green-600" />
-                    <span className="text-green-600">복사됨</span>
-                  </>
-                ) : (
-                  <>
-                    <Copy className="h-4 w-4" />
-                    <span>복사</span>
-                  </>
-                )}
-              </button>
+            {/* 번호 */}
+            <div className="flex items-center justify-center w-7 h-7 bg-gray-100 text-gray-600 rounded-full text-sm font-medium flex-shrink-0">
+              {index + 1}
             </div>
             
-            <div className="bg-gray-50 rounded-lg p-4">
-              <textarea
-                value={result.sentence}
-                readOnly
-                className="w-full h-20 bg-transparent border-none resize-none focus:outline-none text-gray-800 text-sm leading-relaxed"
-              />
+            {/* 이름 */}
+            <div className="w-20 flex-shrink-0">
+              <span className="font-medium text-gray-900">{result.studentName}</span>
             </div>
+            
+            {/* 생성 결과 (수정 가능) */}
+            <textarea
+              value={result.sentence}
+              onChange={(e) => updateResultSentence(result.studentId, e.target.value)}
+              className="flex-1 px-2 text-sm text-gray-800 leading-relaxed bg-transparent border resize-none focus:outline-none focus:bg-white focus:border focus:border-gray-300 focus:rounded px-1 -mx-1 "
+              rows={2}
+            />
+            
+            {/* 복사 버튼 */}
+            <button
+              onClick={() => handleCopy(result.sentence, index)}
+              className="flex items-center space-x-1 px-3 py-1 text-sm bg-gray-100 text-gray-600 rounded hover:bg-gray-200 transition-colors flex-shrink-0 cursor-pointer"
+            >
+              {copiedIndex === index ? (
+                <>
+                  <Check className="h-4 w-4 text-green-600" />
+                  <span className="text-green-600">복사됨</span>
+                </>
+              ) : (
+                <>
+                  <Copy className="h-4 w-4" />
+                  <span>복사</span>
+                </>
+              )}
+            </button>
           </div>
         ))}
       </div>
