@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "국어",
+    "category2_type": "학기"
+  },
+  {
+    "id": 2,
+    "name": "수학",
+    "category2_type": "학기"
+  },
+  {
+    "id": 3,
+    "name": "사회",
+    "category2_type": "학기"
+  },
+  {
+    "id": 4,
+    "name": "과학",
+    "category2_type": "학기"
+  },
+  {
+    "id": 5,
+    "name": "영어",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 6,
+    "name": "도덕",
+    "category2_type": "학기"
+  },
+  {
+    "id": 7,
+    "name": "음악",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 8,
+    "name": "미술",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 9,
+    "name": "체육",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 10,
+    "name": "실과",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 11,
+    "name": "통합(바)",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 12,
+    "name": "통합(슬)",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 13,
+    "name": "통합(즐)",
+    "category2_type": "교과서"
+  },
+  {
+    "id": 14,
+    "name": "통합(안전)",
+    "category2_type": "교과서"
+  }
+]

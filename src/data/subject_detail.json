@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "subject_name": "생활태도/규칙/역할수행",
+    "subject_name_short": "생활/규칙",
+    "subject_no": 1,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 2,
+    "subject_name": "의사소통/표현능력",
+    "subject_name_short": "의사표현",
+    "subject_no": 2,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 3,
+    "subject_name": "대인관계/갈등조정",
+    "subject_name_short": "대인/갈등",
+    "subject_no": 3,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 4,
+    "subject_name": "모둠활동/협력도",
+    "subject_name_short": "모둠/협력",
+    "subject_no": 4,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 5,
+    "subject_name": "학업성취/학습관리",
+    "subject_name_short": "학업/관리",
+    "subject_no": 5,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 6,
+    "subject_name": "자기관리/주변정돈",
+    "subject_name_short": "자기관리",
+    "subject_no": 6,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 7,
+    "subject_name": "자기이해/자존감",
+    "subject_name_short": "자기이해",
+    "subject_no": 7,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 8,
+    "subject_name": "안전의식",
+    "subject_name_short": "안전의식",
+    "subject_no": 8,
+    "subject_desc": "0",
+    "category_id": 1
+  },
+  {
+    "id": 9,
+    "subject_name": "창의성",
+    "subject_name_short": "창의성",
+    "subject_no": 1,
+    "subject_desc": "0",
+    "category_id": 2
+  },
+  {
+    "id": 10,
+    "subject_name": "놀이활동",
+    "subject_name_short": "놀이활동",
+    "subject_no": 2,
+    "subject_desc": "0",
+    "category_id": 2
+  },
+  {
+    "id": 11,
+    "subject_name": "받아쓰기",
+    "subject_name_short": "받아쓰기",
+    "subject_no": 3,
+    "subject_desc": "0",
+    "category_id": 2
+  },
+  {
+    "id": 12,
+    "subject_name": "글씨쓰기",
+    "subject_name_short": "글씨쓰기",
+    "subject_no": 4,
+    "subject_desc": "0",
+    "category_id": 2
+  },
+  {
+    "id": 13,
+    "subject_name": "독서",
+    "subject_name_short": "독서",
+    "subject_no": 5,
+    "subject_desc": "0",
+    "category_id": 2
+  },
+  {
+    "id": 14,
+    "subject_name": "국어",
+    "subject_name_short": "국어",
+    "subject_no": 6,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 15,
+    "subject_name": "수학",
+    "subject_name_short": "수학",
+    "subject_no": 7,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 16,
+    "subject_name": "사회",
+    "subject_name_short": "사회",
+    "subject_no": 8,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 17,
+    "subject_name": "과학",
+    "subject_name_short": "과학",
+    "subject_no": 9,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 18,
+    "subject_name": "영어",
+    "subject_name_short": "영어",
+    "subject_no": 10,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 19,
+    "subject_name": "음악(가창)",
+    "subject_name_short": "음악(가창)",
+    "subject_no": 11,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 20,
+    "subject_name": "음악(기악)",
+    "subject_name_short": "음악(기악)",
+    "subject_no": 12,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 21,
+    "subject_name": "미술",
+    "subject_name_short": "미술",
+    "subject_no": 13,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 22,
+    "subject_name": "체육(운동)",
+    "subject_name_short": "체육(운동)",
+    "subject_no": 14,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 23,
+    "subject_name": "체육(춤)",
+    "subject_name_short": "체육(춤)",
+    "subject_no": 15,
+    "subject_desc": "0",
+    "category_id": 3
+  },
+  {
+    "id": 24,
+    "subject_name": "컴퓨터(SW)",
+    "subject_name_short": "컴퓨터(SW)",
+    "subject_no": 16,
+    "subject_desc": "0",
+    "category_id": 3
+  }
+]

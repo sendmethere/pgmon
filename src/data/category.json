@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "category_name": "품행",
+      "category_no": 1,
+      "domain_id": 1
+    },
+    {
+      "id": 2,
+      "category_name": "교과기능",
+      "category_no": 2,
+      "domain_id": 1
+    },
+    {
+      "id": 3,
+      "category_name": "교과",
+      "category_no": 3,
+      "domain_id": 1
+    }
+]
