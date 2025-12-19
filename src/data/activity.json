@@ -143,5 +143,15 @@
     "id": 38,
     "name": "진로 검사",
     "activity_type_id": 3
+  },
+  {
+    "id": 39,
+    "name": "그림책독서",
+    "activity_type_id": 2
+  },
+  {
+    "id": 40,
+    "name": "독서토론",
+    "activity_type_id": 2
   }
 ]
