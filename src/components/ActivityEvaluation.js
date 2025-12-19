@@ -216,6 +216,42 @@ const ActivityEvaluation = () => {
     }));
   };
 
+  // 화살표 키로 위/아래 이동 + Ctrl/Cmd+C 복사
+  const handleKeyDown = (e, rowIndex, colIndex) => {
+    const table = e.target.closest('table');
+    if (!table) return;
+    
+    const rows = table.querySelectorAll('tbody tr');
+    const totalRows = rows.length;
+    
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      const nextRowIndex = Math.min(rowIndex + 1, totalRows - 1);
+      const nextRow = rows[nextRowIndex];
+      const inputs = nextRow.querySelectorAll('input, textarea');
+      if (inputs[colIndex]) {
+        inputs[colIndex].focus();
+        if (inputs[colIndex].tagName === 'INPUT') inputs[colIndex].select();
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      const prevRowIndex = Math.max(rowIndex - 1, 0);
+      const prevRow = rows[prevRowIndex];
+      const inputs = prevRow.querySelectorAll('input, textarea');
+      if (inputs[colIndex]) {
+        inputs[colIndex].focus();
+        if (inputs[colIndex].tagName === 'INPUT') inputs[colIndex].select();
+      }
+    } else if ((e.ctrlKey || e.metaKey) && e.key === 'c') {
+      // 선택된 텍스트가 없으면 전체 복사
+      const selection = window.getSelection().toString();
+      if (!selection && e.target.value) {
+        e.preventDefault();
+        handleCopy(e.target.value);
+      }
+    }
+  };
+
   // 일괄 자동 추가 (기존 문장 끝에 추가, 중복 방지 - 중복 시 다른 문장 찾아서 추가)
   const handleAutoFill = () => {
     if (!selectedItem || globalStudents.length === 0 || currentSentences.length === 0) return;
@@ -612,7 +648,7 @@ const ActivityEvaluation = () => {
                           </tr>
                         </thead>
                         <tbody>
-                          {globalStudents.map((student) => {
+                          {globalStudents.map((student, rowIndex) => {
                             const typeEvals = getStudentTypeEvaluations(student.number, selectedType.id);
                             const combinedText = typeEvals.map(e => e.evaluation).join(' ');
                             return (
@@ -625,6 +661,7 @@ const ActivityEvaluation = () => {
                                     type="text"
                                     value={student.name}
                                     onChange={(e) => handleNameChange(student.number, e.target.value)}
+                                    onKeyDown={(e) => handleKeyDown(e, rowIndex, 0)}
                                     placeholder="이름"
                                     className="w-full px-2 py-1 text-center text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pgm-primary rounded"
                                     maxLength="8"
@@ -688,6 +725,9 @@ const ActivityEvaluation = () => {
                       
                       {/* 학생 평가 테이블 */}
                       <div className="p-4">
+                        <p className="text-xs text-gray-400 mb-2">
+                          💡 ↑↓ 화살표로 이동, Ctrl+C (Mac: ⌘+C)로 복사
+                        </p>
                         <table className="w-full border-collapse border border-gray-300">
                           <thead>
                             <tr className="bg-gray-50">
@@ -698,7 +738,7 @@ const ActivityEvaluation = () => {
                             </tr>
                           </thead>
                           <tbody>
-                            {globalStudents.map((student) => (
+                            {globalStudents.map((student, rowIndex) => (
                               <tr key={student.number} className="hover:bg-gray-50">
                                 <td className="border border-gray-300 px-2 py-2 text-center text-gray-600 text-sm">
                                   {student.number}
@@ -708,6 +748,7 @@ const ActivityEvaluation = () => {
                                     type="text"
                                     value={student.name}
                                     onChange={(e) => handleNameChange(student.number, e.target.value)}
+                                    onKeyDown={(e) => handleKeyDown(e, rowIndex, 0)}
                                     placeholder="이름"
                                     className="w-full px-2 py-1 text-center text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pgm-primary rounded"
                                     maxLength="8"
@@ -717,6 +758,7 @@ const ActivityEvaluation = () => {
                                   <textarea
                                     value={evaluations[selectedItem.id]?.[student.number] || ''}
                                     onChange={(e) => handleEvaluationChange(selectedItem.id, student.number, e.target.value)}
+                                    onKeyDown={(e) => handleKeyDown(e, rowIndex, 1)}
                                     placeholder="평가 문장을 입력하세요"
                                     className="w-full px-2 py-1 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pgm-primary rounded resize-none"
                                     rows={2}

@@ -1,16 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { FileText, Download, Copy, Check } from 'lucide-react';
 import { useEvaluationStore } from '../store/evaluationStore';
 
 const ResultsDisplay = () => {
   const { evaluationResults, exportToExcel, updateResultSentence } = useEvaluationStore();
   const [copiedIndex, setCopiedIndex] = useState(null);
+  const [showCopyToast, setShowCopyToast] = useState(false);
+  const textareaRefs = useRef([]);
   
   const handleCopy = async (text, index) => {
     try {
       await navigator.clipboard.writeText(text);
       setCopiedIndex(index);
+      setShowCopyToast(true);
       setTimeout(() => setCopiedIndex(null), 2000);
+      setTimeout(() => setShowCopyToast(false), 1500);
     } catch (error) {
       console.error('클립보드 복사 실패:', error);
       // Fallback for older browsers
@@ -21,12 +25,36 @@ const ResultsDisplay = () => {
       document.execCommand('copy');
       document.body.removeChild(textArea);
       setCopiedIndex(index);
+      setShowCopyToast(true);
       setTimeout(() => setCopiedIndex(null), 2000);
+      setTimeout(() => setShowCopyToast(false), 1500);
     }
   };
   
   const handleExport = () => {
     exportToExcel();
+  };
+
+  // 화살표 키로 상하 이동 + Ctrl/Cmd+C 복사
+  const handleKeyDown = (e, index, text) => {
+    const totalItems = evaluationResults.length;
+    
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      const nextIndex = Math.min(index + 1, totalItems - 1);
+      textareaRefs.current[nextIndex]?.focus();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      const prevIndex = Math.max(index - 1, 0);
+      textareaRefs.current[prevIndex]?.focus();
+    } else if ((e.ctrlKey || e.metaKey) && e.key === 'c') {
+      // 선택된 텍스트가 없으면 전체 복사
+      const selection = window.getSelection().toString();
+      if (!selection && text) {
+        e.preventDefault();
+        handleCopy(text, index);
+      }
+    }
   };
   
   return (
@@ -51,6 +79,12 @@ const ResultsDisplay = () => {
         </button>
       </div>
       
+      {evaluationResults.length > 0 && (
+        <p className="text-xs text-gray-400 mb-2">
+          💡 ↑↓ 화살표로 이동, Ctrl+C (Mac: ⌘+C)로 복사
+        </p>
+      )}
+      
       <div className="divide-y divide-gray-200">
         {evaluationResults.map((result, index) => (
           <div
@@ -69,9 +103,11 @@ const ResultsDisplay = () => {
             
             {/* 생성 결과 (수정 가능) */}
             <textarea
+              ref={(el) => (textareaRefs.current[index] = el)}
               value={result.sentence}
               onChange={(e) => updateResultSentence(result.studentId, e.target.value)}
-              className="flex-1 px-2 h-36 text-sm text-gray-800 leading-relaxed bg-transparent border resize-none focus:outline-none focus:bg-white focus:border focus:border-gray-300 focus:rounded px-1 -mx-1 "
+              onKeyDown={(e) => handleKeyDown(e, index, result.sentence)}
+              className="flex-1 px-2 h-36 text-sm text-gray-800 leading-relaxed bg-transparent border border-transparent resize-none focus:outline-none focus:bg-white focus:border-2 focus:border-pgm-primary focus:rounded -mx-1"
               rows={2}
             />
             
@@ -101,6 +137,14 @@ const ResultsDisplay = () => {
           <FileText className="h-12 w-12 mx-auto mb-4 opacity-50" />
           <p>아직 생성된 평가 문장이 없습니다.</p>
           <p className="text-sm">평가를 완료한 후 '평가 문장 생성' 버튼을 눌러주세요.</p>
+        </div>
+      )}
+
+      {/* 복사 토스트 */}
+      {showCopyToast && (
+        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 bg-gray-800 text-white px-4 py-2 rounded-lg shadow-lg text-sm flex items-center gap-2 z-50 animate-fade-in">
+          <Check className="h-4 w-4 text-green-400" />
+          복사되었습니다
         </div>
       )}
     </div>

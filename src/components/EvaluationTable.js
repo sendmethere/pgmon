@@ -29,6 +29,53 @@ const EvaluationTable = () => {
   const handleGenerateEvaluations = () => {
     generateEvaluations();
   };
+
+  // 화살표 키로 상하좌우 이동
+  const handleKeyDown = (e, rowIndex, colIndex, totalCols) => {
+    const table = e.target.closest('table');
+    if (!table) return;
+    
+    const rows = table.querySelectorAll('tbody tr');
+    const totalRows = rows.length;
+    
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      const nextRowIndex = Math.min(rowIndex + 1, totalRows - 1);
+      const nextRow = rows[nextRowIndex];
+      const inputs = nextRow.querySelectorAll('input');
+      if (inputs[colIndex]) {
+        inputs[colIndex].focus();
+        inputs[colIndex].select();
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      const prevRowIndex = Math.max(rowIndex - 1, 0);
+      const prevRow = rows[prevRowIndex];
+      const inputs = prevRow.querySelectorAll('input');
+      if (inputs[colIndex]) {
+        inputs[colIndex].focus();
+        inputs[colIndex].select();
+      }
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      const currentRow = rows[rowIndex];
+      const inputs = currentRow.querySelectorAll('input');
+      const nextColIndex = Math.min(colIndex + 1, totalCols - 1);
+      if (inputs[nextColIndex]) {
+        inputs[nextColIndex].focus();
+        inputs[nextColIndex].select();
+      }
+    } else if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      const currentRow = rows[rowIndex];
+      const inputs = currentRow.querySelectorAll('input');
+      const prevColIndex = Math.max(colIndex - 1, 0);
+      if (inputs[prevColIndex]) {
+        inputs[prevColIndex].focus();
+        inputs[prevColIndex].select();
+      }
+    }
+  };
   
   return (
     <div>
@@ -105,37 +152,42 @@ const EvaluationTable = () => {
               </tr>
             </thead>
             <tbody>
-              {students.map((student, index) => (
-                <tr key={student.id} className="hover:bg-gray-50">
-                  <td className="border border-gray-300 px-2 py-2 text-center text-gray-600 text-sm" style={{width: '50px'}}>
-                    {index + 1}
-                  </td>
-                  <td className="border border-gray-300 px-2 py-2" style={{width: '120px'}}>
-                    <input
-                      type="text"
-                      value={student.name}
-                      onChange={(e) => handleNameChange(student.id, e.target.value)}
-                      placeholder="이름"
-                      className="w-full px-2 py-1 text-center text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pgm-primary rounded"
-                      maxLength="8"
-                    />
-                  </td>
-                  {selectedSubjects.map((subject) => (
-                    <td key={subject.id} className="border border-gray-300 px-1 py-2">
+              {students.map((student, rowIndex) => {
+                const totalCols = selectedSubjects.length + 1; // 이름 + 점수들
+                return (
+                  <tr key={student.id} className="hover:bg-gray-50">
+                    <td className="border border-gray-300 px-2 py-2 text-center text-gray-600 text-sm" style={{width: '50px'}}>
+                      {rowIndex + 1}
+                    </td>
+                    <td className="border border-gray-300 px-2 py-2" style={{width: '120px'}}>
                       <input
-                        type="number"
-                        min="0"
-                        max="5"
-                        value={student.scores[subject.id] || ''}
-                        onChange={(e) => handleScoreChange(student.id, subject.id, e.target.value, e.target)}
-                        className="w-full px-1 py-1 text-center text-sm border border-gray-300 rounded focus:ring-2 focus:ring-pgm-primary focus:border-transparent"
-                        placeholder="0"
-                        title={subject.subject_name}
+                        type="text"
+                        value={student.name}
+                        onChange={(e) => handleNameChange(student.id, e.target.value)}
+                        onKeyDown={(e) => handleKeyDown(e, rowIndex, 0, totalCols)}
+                        placeholder="이름"
+                        className="w-full px-2 py-1 text-center text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pgm-primary rounded"
+                        maxLength="8"
                       />
                     </td>
-                  ))}
-                </tr>
-              ))}
+                    {selectedSubjects.map((subject, colIndex) => (
+                      <td key={subject.id} className="border border-gray-300 px-1 py-2">
+                        <input
+                          type="number"
+                          min="0"
+                          max="5"
+                          value={student.scores[subject.id] || ''}
+                          onChange={(e) => handleScoreChange(student.id, subject.id, e.target.value, e.target)}
+                          onKeyDown={(e) => handleKeyDown(e, rowIndex, colIndex + 1, totalCols)}
+                          className="w-full px-1 py-1 text-center text-sm border border-gray-300 rounded focus:ring-2 focus:ring-pgm-primary focus:border-transparent"
+                          placeholder="0"
+                          title={subject.subject_name}
+                        />
+                      </td>
+                    ))}
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
